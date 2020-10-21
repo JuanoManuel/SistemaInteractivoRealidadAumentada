@@ -1,0 +1,128 @@
+{ "pack":[
+	{
+		"name" : "intro",
+		"subtitles" : [
+			{
+				"time" : "01.130",
+				"subtitle" : "La cultura Teotihuacana fue una de las muchas culturas prehispánicas de Mesoamérica"
+			},
+			{
+				"time" : "06.045",
+				"subtitle" : "su origen data del siglo I A.C"
+			},
+			{
+				"time" : "08.900",
+				"subtitle" : "hasta el siglo VIII D.C"
+			},
+			{
+				"time" : "11.525",
+				"subtitle" : "se encontraban en el territorio del actual México"
+			},
+			{
+				"time" : "14.534",
+				"subtitle" : "específicamente en lo que hoy se conoce como Valle de Teotihuacán",
+				"trigger" : "valle-teotihuacan"
+			},
+			{
+				"time" : "18.415",
+				"subtitle" : "a unos 45 km de la ciudad de México."
+			},
+			{
+				"time" : "21.820",
+				"subtitle" : "El valle estaba limitado por cerros volcánicos"
+			},
+			{
+				"time" : "24.888",
+				"subtitle" : "al sur se encuentra el Patlachique"
+			},
+			{
+				"time" : "27.790",
+				"subtitle" : "al oeste el Chiconautla"
+			},
+			{
+				"time" : "29.742",
+				"subtitle" : "y al este está limitado por lomas de menor elevación."
+			}
+		]
+	},
+	{
+		"name" : "dominacion",
+		"subtitles" : [
+			{
+				"time" : "00.315",
+				"subtitle" : "Toda esta sección de territorio es donde dominaban los teotihuacanos."
+			},
+			{
+				"time" : "04.485",
+				"subtitle" : "Algunas ciudades prehispánicas dentro de su dominio son"
+			},
+			{
+				"time" : "07.870",
+				"subtitle" : "Teotenango",
+				"trigger" : "teotenango"
+			},
+			{
+				"time" : "09.155",
+				"subtitle" : "Cacaxtla",
+				"trigger" : "cacaxtla"
+			},
+			{
+				"time" : "10.665",
+				"subtitle" : "Cantona",
+				"trigger" : "cantona"
+			},
+			{
+				"time" : "12.656",
+				"subtitle" : "Cholula",
+				"trigger" : "cholula"
+			},
+			{
+				"time" : "14.247",
+				"subtitle" : "Y Tula",
+				"trigger" : "tula"
+			}
+		]
+	},
+	{
+		"name" : "influencia",
+		"subtitles" : [
+			{
+				"time" : "00.674",
+				"subtitle" : "Además, los teotihuacanos tenían influencias en otras ciudades prehispánicas un poco más alejadas como los son"
+			},
+			{
+				"time" : "08.887",
+				"subtitle" : "El Teul en Zacatecas",
+				"trigger" : "teul"
+			},
+			{
+				"time" : "11.830",
+				"subtitle" : "El tajín en Veracruz",
+				"trigger" : "tajin"
+			},
+			{
+				"time" : "14.606",
+				"subtitle" : "Monte Alban en Oaxaca",
+				"trigger" : "monte-alban"
+			},
+			{
+				"time" : "17.422",
+				"subtitle" : "y el cerro de las mesas también en Veracruz",
+				"trigger" : "cerro-mesas"
+			}
+		]
+	},
+	{
+		"name" : "outro",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Si deseas saber un poco más sobre estas ciudades"
+			},
+			{
+				"time" : "02.795",
+				"subtitle" : "puedes tocar su nombre para ver más información"
+			}
+		]
+	}]
+}
