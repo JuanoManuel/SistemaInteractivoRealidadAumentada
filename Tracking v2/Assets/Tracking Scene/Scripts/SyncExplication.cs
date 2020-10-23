@@ -7,9 +7,11 @@ public class SyncExplication : MonoBehaviour
     public Animator[] objectsToAnimate;
     public AudioClip[] audiosToPlay;
     public string[] topicsToPlay;
-    public bool start,playAudio;
+    public bool playAudio;
     public float time;
     public string fileName = "string";
+
+    private bool start;
     private Dictionary<string, Animator> objects = new Dictionary<string, Animator>();
     private int lastIndex, topicIndex;
     private Dictionary<string, Subtitle[]> subtitles = new Dictionary<string, Subtitle[]>();
@@ -102,5 +104,12 @@ public class SyncExplication : MonoBehaviour
     public void StartTimer()
     {
         start = true;
+        audioSource.UnPause();
+    }
+
+    public void StopTimer()
+    {
+        start = false;
+        audioSource.Pause();
     }
 }

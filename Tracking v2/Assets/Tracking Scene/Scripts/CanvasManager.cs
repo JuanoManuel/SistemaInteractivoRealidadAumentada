@@ -6,15 +6,17 @@ using UnityEngine.XR.ARFoundation;
 
 public class CanvasManager : MonoBehaviour
 {
-    public Animator menuPanelAnimator, trackingCanvasAnimator, startDialogAnimator;
+    public Animator menuPanelAnimator, trackingCanvasAnimator, startDialogAnimator,helpPanel;
     public TapToPlace tapToPlace;
     public GameObject[] prefabsToPlace;
     public Text subtitlesText;
     public GameObject currentPrefab;
+    public Text textInstruction;
 
     private Dictionary<string, GameObject> content = new Dictionary<string, GameObject>();
     private ARPlaneManager planeManager;
     private bool isRunningExplication, isReadyToPlay;
+    private Dictionary<string, string> instructions = new Dictionary<string, string>();
 
     private void Awake()
     {
@@ -22,7 +24,16 @@ public class CanvasManager : MonoBehaviour
         {
             content.Add(prefab.name, prefab);
         }
+        instructions.Add("inicio", "Selecciona un tema del menu");
+        instructions.Add("colocar", "Toca el plano generado");
+        instructions.Add("ajustar", "Ajusta tamaño, posición y rotación");
+        instructions.Add("reproduciendo", string.Empty);
         planeManager = GetComponent<ARPlaneManager>();
+    }
+
+    private void Start()
+    {
+        textInstruction.text = instructions["inicio"];
     }
 
     public void UpdateAssetToPlace(string key)
@@ -32,6 +43,7 @@ public class CanvasManager : MonoBehaviour
         tapToPlace.SetPrefab(currentPrefab);
         menuPanelAnimator.SetBool("IsActive", false);
         trackingCanvasAnimator.SetBool("IsActive", true);
+        textInstruction.text = instructions["colocar"];
     }
 
     public void SetReadyToPlay(bool value)
@@ -40,6 +52,7 @@ public class CanvasManager : MonoBehaviour
         if (value)
         {
             startDialogAnimator.SetBool("IsActive", true);
+            textInstruction.text = instructions["ajustar"];
         }
     }
 
@@ -62,15 +75,28 @@ public class CanvasManager : MonoBehaviour
         {
             isRunningExplication = true;
             SetAllPlanesActive(false);
-            currentPrefab.GetComponent<SyncExplication>().start = true;
+            currentPrefab.GetComponent<SyncExplication>().StartTimer();
             startDialogAnimator.SetBool("IsActive", false);
             trackingCanvasAnimator.SetBool("IsActive", true);
+            textInstruction.text = instructions["reproduciendo"];
         }
         else
         {
             Debug.Log("No hay nada que mostrar");
         }
         
+    }
+
+    public void PauseInteractive()
+    {
+        if(isRunningExplication)
+            currentPrefab.GetComponent<SyncExplication>().StopTimer();
+    }
+
+    public void ResumeInteractive()
+    {
+        if(isRunningExplication)
+            currentPrefab.GetComponent<SyncExplication>().StartTimer();
     }
 
     public void FinishInteractive()
@@ -80,6 +106,7 @@ public class CanvasManager : MonoBehaviour
         trackingCanvasAnimator.SetBool("IsActive", false);
         isRunningExplication = false;
         isReadyToPlay = false;
+        textInstruction.text = instructions["inicio"];
     }
 
     public Text GetSubtitlesText()
@@ -89,9 +116,24 @@ public class CanvasManager : MonoBehaviour
 
     private void SetAllPlanesActive(bool value)
     {
+        planeManager.enabled = value;
         foreach(var plane in planeManager.trackables)
         {
             plane.gameObject.SetActive(value);
         }
+    }
+
+    public void CloseHelpCanvas()
+    {
+        if(isRunningExplication)
+            ResumeInteractive();
+        helpPanel.SetBool("IsActive", false);
+    }
+
+    public void OpenHelpCanvas()
+    {
+        helpPanel.SetBool("IsActive", true);
+        if(isRunningExplication)
+            PauseInteractive();
     }
 }

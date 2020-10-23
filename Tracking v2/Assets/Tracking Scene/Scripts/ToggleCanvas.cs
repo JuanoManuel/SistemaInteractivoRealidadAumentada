@@ -13,7 +13,7 @@ public class ToggleCanvas : MonoBehaviour
 
     public void OpenCanvas()
     {
-        animator.SetBool("IsActive", false);
+        animator.SetBool("IsActive", true);
     }
     
 }
