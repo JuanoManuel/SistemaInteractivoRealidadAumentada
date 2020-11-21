@@ -4,35 +4,63 @@ using UnityEngine;
 
 public class SyncExplication : MonoBehaviour
 {
-    public Animator[] objectsToAnimate;
-    public AudioClip[] audiosToPlay;
-    public string[] topicsToPlay;
+    [Header("Initial Settings")]
+    //banderas para reproducir audio y mostrar subtitulos
     public bool playAudio;
-    public float time;
+    public bool displaySubtitles;
+    //indica si es el ultimo modelo de la explicacion
+    public bool isLast;
+    //Objetos que animaremos
+    [Header("Animation Settings")]
+    public Animator[] objectsToAnimate;
+    //Audios que se reproduciran, el nombre de los audios es importante
+    [Header("Audio Settings")]
+    public AudioClip[] audiosToPlay;
+    //Nombre de los capitulos de acuerdo a los json
+    [Header("Json Settings")]
+    //nombre del archivo json
     public string fileName = "string";
-
-    private bool start;
+    public string[] topicsToPlay;
+    [Space]
+    //variable que cuenta el tiempo transcurrido
+    public float time;
+    //bandera para iniciar el timer
+    public bool start;
+    //bandera para saber si se esta reproduciend un audio
+    private bool playingAudio;
+    //diccionario de objetos por animar
     private Dictionary<string, Animator> objects = new Dictionary<string, Animator>();
+    //lastIndex controla el ultimo subtitulo reproducido conforme el orden del json
+    //topicIndex lo mismo pero con los topics
     private int lastIndex, topicIndex;
+    //Diccionario de Objetos Subtitulo aqui se guarda el texto y el tiempo para reproducir
     private Dictionary<string, Subtitle[]> subtitles = new Dictionary<string, Subtitle[]>();
+    //tema actual de la explicacion
     private string currentTopic;
+    //audioSource de la camara principal
     private AudioSource audioSource;
+    //referencia al gamecontroller
     private CanvasManager gameController;
 
     private void Awake()
     {
-        //load the dialogs from file
-        var textAsset = Resources.Load<TextAsset>("Subtitles/"+fileName);
+        //Cargamos el Json a sus Objetos equivalentes
+        var textAsset = Resources.Load<TextAsset>("Subtitles/" + fileName);
         var voText = JsonUtility.FromJson<SubtitlesPack>(textAsset.text);
-        foreach(var t in voText.pack)
+
+        //Poblamos el diccionario de subtitulos
+        foreach (var t in voText.pack)
         {
             subtitles[t.name] = t.subtitles;
         }
-        foreach(var obj in objectsToAnimate)
+        //poblamos el diccionario de objetos que animar
+        foreach (var obj in objectsToAnimate)
         {
             objects[obj.gameObject.name] = obj;
         }
+        //referencia al gamecontroller
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<CanvasManager>();
+        //referencia al control de audio de la camara
         audioSource = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>();
 
     }
@@ -40,8 +68,7 @@ public class SyncExplication : MonoBehaviour
     {
         time = 0f;
         lastIndex = 0;
-        start = false;
-        playAudio = true;
+        playingAudio = true;
         currentTopic = topicsToPlay[0];
         topicIndex = 0;
     }
@@ -50,26 +77,45 @@ public class SyncExplication : MonoBehaviour
     {
         if (start)
         {
-            foreach(AudioClip clip in audiosToPlay)
+            //si se quiere reproducir audio cargamos los audios
+            if (playAudio)
             {
-                if (fileName + "-" + currentTopic == clip.name && playAudio)
+                //Buscamos en cada clip el clip que termine con el topic actual para reproducirlo
+                foreach (AudioClip clip in audiosToPlay)
                 {
-                    audioSource.PlayOneShot(clip);
-                    playAudio = false;
+                    if (fileName + "-" + currentTopic == clip.name && playingAudio)
+                    {
+                        audioSource.PlayOneShot(clip);
+                        playingAudio = false;
+                    }
                 }
             }
+            //Mostramos subtitulos correspondientes usando la variable time
+
+            //obtenemos todos los subtitulos del tema actual
             Subtitle[] pack = subtitles[currentTopic];
+            //si aun no llegamos al ultimo subtitulo
             if (lastIndex < pack.Length)
             {
+                //si el tiempo actual es igual o mayor al tiempo requerido para mostrar el subtitulo en el que 
+                //vamos entonces si se muestra
                 if (time >= Double.Parse(pack[lastIndex].time))
                 {
-                    gameController.GetSubtitlesText().text = pack[lastIndex].subtitle;
+                    //actualizamos el texto en los subtitulos
+                    if (displaySubtitles && pack[lastIndex].subtitle != null)
+                        gameController.GetSubtitlesText().text = pack[lastIndex].subtitle;
+                    //almacenamos el nombre del objeto a animar
                     string trigger = pack[lastIndex].trigger;
+                    //si el objeto tiene una propiedad trigger iniciamos la animacion correspondiente
                     if (trigger != string.Empty)
                     {
-                        objects[trigger].SetBool("IsActive", true);
-                        if(objects[trigger].gameObject.tag == "MoreInfo")
-                            objects[trigger].gameObject.GetComponent<PinManager>().start = true;
+                        bool nextValue = !objects[trigger].GetBool("IsActive");
+                        objects[trigger].SetBool("IsActive", nextValue);
+                        if (objects[trigger].TryGetComponent(out PinManager pinManager))
+                        {
+                            pinManager.value = nextValue;
+                            pinManager.start = true;
+                        }
                     }
                     lastIndex++;
                 }
@@ -78,21 +124,32 @@ public class SyncExplication : MonoBehaviour
             else
             {
                 Debug.Log("Fin... Esperando a que se termine de reproducir el audio");
+                //esperamos a que se termine de reproducir el audio actual
                 if (!audioSource.isPlaying)
                 {
                     topicIndex++;
+                    //Si se supero el numero de topics la explicacion acabo
+                    //Reseteamos todos los canvas del gameManager
                     if (topicIndex >= topicsToPlay.Length)
                     {
                         Debug.Log("Termino explicacion");
                         start = false;
                         topicIndex = 0;
-                        gameController.GetSubtitlesText().text = string.Empty;
-                        gameController.FinishInteractive();
+                        if (displaySubtitles)
+                            gameController.GetSubtitlesText().text = string.Empty;
+                        //si es el ultimo se manda al gamecontroller que termino la explicacion
+                        //si no se empieza con la explicacion del siguiente modelo
+                        if (isLast)
+                        {
+                            Debug.Log("Terminando tema");
+                            gameController.FinishInteractive();
+                        }
                     }
                     else
                     {
+                        //Si no entonces preparamos todo para iniciar con el siguente tema
                         currentTopic = topicsToPlay[topicIndex];
-                        playAudio = true;
+                        playingAudio = true;
                         lastIndex = 0;
                         time = 0;
                     }
@@ -104,12 +161,14 @@ public class SyncExplication : MonoBehaviour
     public void StartTimer()
     {
         start = true;
-        audioSource.UnPause();
+        if(playAudio)
+            audioSource.UnPause();
     }
 
     public void StopTimer()
     {
         start = false;
-        audioSource.Pause();
+        if(playAudio)
+            audioSource.Pause();
     }
 }

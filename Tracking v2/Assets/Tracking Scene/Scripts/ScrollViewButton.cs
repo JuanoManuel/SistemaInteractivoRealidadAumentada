@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class ScrollViewButton : MonoBehaviour
 {
-    public Text myText;
     public CanvasManager scrollViewController;
+    public string prefabName;
 
     public void OnClick()
     {
-        scrollViewController.UpdateAssetToPlace(myText.text);
+        scrollViewController.UpdateAssetToPlace(prefabName);
     }
 }

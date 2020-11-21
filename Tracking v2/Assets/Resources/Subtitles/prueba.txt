@@ -1,7 +1,17 @@
-{
-	"name" : "prueba",
-	"subtitles" : [{
-		"time" : "time",
-		"subtitle" : "prueba de subtitulo"
+{ "pack":[
+	{
+		"name" : "intro",
+		"subtitles" : [
+			{
+				"time" : "01.130",
+				"subtitle" : "Cubo",
+				"trigger" : "Cubo"
+			},
+			{
+				"time" : "06.045",
+				"subtitle" : "Esfera",
+				"trigger" : "Esfera"
+			}
+		]
 	}]
 }

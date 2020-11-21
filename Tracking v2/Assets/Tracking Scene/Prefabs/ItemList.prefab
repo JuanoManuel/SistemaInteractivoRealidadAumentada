@@ -66,10 +66,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 29
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -88,6 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1521061116799678329}
   - component: {fileID: 1521061116799678334}
+  - component: {fileID: 7151519692463803266}
   m_Layer: 0
   m_Name: ItemList
   m_TagString: Untagged
@@ -135,6 +136,20 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &7151519692463803266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521061116799678328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b770b6ffbf918429195b07a9948737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollViewController: {fileID: 0}
+  prefabName: 
 --- !u!1 &6203066980758496984
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +162,6 @@ GameObject:
   - component: {fileID: 8224453736486472003}
   - component: {fileID: 7785248511411126641}
   - component: {fileID: 2689756663970873143}
-  - component: {fileID: 6856871238609014804}
   m_Layer: 5
   m_Name: Asset Button
   m_TagString: Untagged
@@ -255,7 +269,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6856871238609014804}
+      - m_Target: {fileID: 7151519692463803266}
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -266,17 +280,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6856871238609014804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6203066980758496984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3b770b6ffbf918429195b07a9948737, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myText: {fileID: 1521061116155197749}
-  scrollViewController: {fileID: 0}

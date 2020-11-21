@@ -117,7 +117,23 @@
 		"subtitles" : [
 			{
 				"time" : "00.000",
-				"subtitle" : "Si deseas saber un poco más sobre estas ciudades"
+				"subtitle" : "Si deseas saber un poco más sobre estas ciudades",
+				"trigger" : "teul"
+			},
+			{
+				"time" : "00.001",
+				"subtitle" : "",
+				"trigger" : "tajin"
+			},
+			{
+				"time" : "00.002",
+				"subtitle" : "",
+				"trigger" : "monte-alban"
+			},
+			{
+				"time" : "00.003",
+				"subtitle" : "",
+				"trigger" : "cerro-mesas"
 			},
 			{
 				"time" : "02.795",

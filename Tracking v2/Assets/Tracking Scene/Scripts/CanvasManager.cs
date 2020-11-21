@@ -24,7 +24,7 @@ public class CanvasManager : MonoBehaviour
         {
             content.Add(prefab.name, prefab);
         }
-        instructions.Add("inicio", "Selecciona un tema del menu");
+        instructions.Add("inicio", "Selecciona un tema del menú");
         instructions.Add("colocar", "Toca el plano generado");
         instructions.Add("ajustar", "Ajusta tamaño, posición y rotación");
         instructions.Add("reproduciendo", string.Empty);
