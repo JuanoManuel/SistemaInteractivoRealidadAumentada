@@ -1,0 +1,435 @@
+﻿{ "pack":[
+	{
+		"name" : "Intro",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle" : "Para la administración del vasto imperio"
+			},
+			{
+				"time" : "02.600",
+				"subtitle" : " los mexicas implementaron un rígido sistema basado"
+			},
+			{
+				"time" : "05.700",
+				"subtitle" : "en el poder personal de la nobleza."
+			},
+			{
+				"time" : "08.800",
+				"subtitle" : "Los pilli o nobles formaban el grupo privilegiado.",
+				"trigger" : "titulo-sociedad"
+			},
+			{
+				"time" : "12.500",
+				"subtitle" : "Eran los sacerdotes, los guerreros y los funcionarios de gobierno."
+			},
+			{
+				"time" : "16.800",
+				"subtitle" : "Eran dueños de la mayoría de las tierras"
+			},
+			{
+				"time" : "19.200",
+				"subtitle" : "no pagaban ningún tipo de tributo"
+			},
+			{
+				"time" : "21.500",
+				"subtitle" : "y controlaban el Estado."
+			}
+		]
+	},
+	{
+		"name" : "HueyTlatoani",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle" : "A la cabeza de la estructura del gobierno",
+				"trigger" : "huey-tlatoani"
+			},
+			{
+				"time" : "02.400",
+				"subtitle" : "estaba el soberano o huey tlatoani (gran orador y jefe de los hombres)"
+			},
+			{
+				"time" : "08.600",
+				"subtitle" : "con amplios poderes militares, civiles y religiosos."
+			}
+		]
+	},
+	{
+		"name" : "Tlatocan",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Escalon1"
+			},
+			{
+				"time" : "00.700",
+				"subtitle" : "Del huey tlatoani"
+			},
+			{
+				"time" : "01.800",
+				"subtitle" : "presidía el consejo supremo o tlatocán",
+				"trigger" : "Tlatocan"
+			},
+			{
+				"time" : "04.900",
+				"subtitle" : "donde participaban los jefes o tlatoani de las ciudades más importantes"
+			},
+			{
+				"time" : "09.600",
+				"subtitle" : "las máximas autoridades militares"
+			},
+			{
+				"time" : "11.300",
+				"subtitle" : "y los delegados de algunos calpullis"
+			},
+			{
+				"time" : "13.800",
+				"subtitle" : "así se les llamaba a los distritos de Tenochtitlan"
+			},
+			{
+				"time" : "17.900",
+				"subtitle" : "El consejo supremo tomaba las decisiones"
+			},
+			{
+				"time" : "20.200",
+				"subtitle" : "políticas militares y administrativas."
+			},
+			{
+				"time" : "23.100",
+				"subtitle" : "Además, designaba al nuevo huey tlatoani cuando se producía la muerte del soberano."
+			}
+		]
+	},
+	{
+		"name" : "Tlatoani",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Escalon2"
+			},
+			{
+				"time" : "00.400",
+				"subtitle" : "Un nivel abajo se encuentra el Tlatoani",
+				"trigger" : "tlatoaniRight"
+			},
+			{
+				"time" : "01.400",
+				"trigger" : "tlatoaniLeft"
+			},
+			{
+				"time" : "02.400",
+				"trigger" : "tlatoani"
+			},
+			{
+				"time" : "03.500",
+				"subtitle" : "Había uno en cada ciudad principal,"
+			},
+			{
+				"time" : "06.000",
+				"subtitle" : "con poder militar,"
+			},
+			{
+				"time" : "07.200",
+				"subtitle" : "civil y religioso."
+			},
+			{
+				"time" : "09.200",
+				"subtitle" : "Un Tlatoani podía estar sujeto a otro más importante,"
+			},
+			{
+				"time" : "12.600",
+				"subtitle" : "como el Huey Tlatoni."
+			}
+		]
+	},
+	{
+		"name" : "Tecuhtli",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Escalon3"
+			},
+			{
+				"time" : "00.400",
+				"subtitle" : "Tecuhtli (Señor)",
+				"trigger" : "tecuhtli"
+			},
+			{
+				"time" : "02.400",
+				"subtitle" : "Este título se otorgaba como recompensa a acciones sobresalientes y estaba dotado de tierras y servidores."
+			},
+			{
+				"time" : "09.700",
+				"subtitle" : "Muchos Tecuhtli ejercían cargos administrativos o eran jueces."
+			},
+			{
+				"time" : "13.800",
+				"subtitle" : "Tenían como misión administrar sus dominios"
+			},
+			{
+				"time" : "16.300",
+				"subtitle" : " y a la gente que residía en ellos."
+			},
+			{
+				"time" : "19.100",
+				"subtitle" : "Servía a su Tlatoani cuando éste lo demandaba"
+			}
+		]
+	},
+	{
+		"name" : "Pilli",
+		"subtitles" : [
+			{
+				"time" : "00.300",
+				"subtitle" : "Pilli (Hijo del Tecuhtli).",
+				"trigger" : "pilli"
+			},
+			{
+				"time" : "02.800",
+				"subtitle" : "Tenían tierras en el interior de las propiedades de su Tecuhtli"
+			},
+			{
+				"time" : "06.600",
+				"subtitle" : "actuaban como administradores de justicia y recaudadores de tributo."
+			},
+			{
+				"time" : "11.800",
+				"subtitle" : "Podía ser Pilli todo el que nacía dentro de una familia noble."
+			}
+		]
+	},
+	{
+		"name" : "Aguila",
+		"subtitles" : [
+			{
+				"time" : "00.800",
+				"subtitle" : "Noble águila",
+				"trigger" : "noble-aguila"
+			},
+			{
+				"time" : "02.600",
+				"subtitle" : "Los nobles águila o Guerreros Águila como se les conoce en ocasiones,"
+			},
+			{
+				"time" : "07.300",
+				"subtitle" : "eran un cuerpo de infantería de élite que formaba parte del ejército del Imperio Mexica."
+			},
+			{
+				"time" : "12.700",
+				"subtitle" : "Los integrantes de esta sociedad guerrera"
+			},
+			{
+				"time" : "15.000",
+				"subtitle" : "eran miembros de la nobleza o individuos del pueblo llano"
+			},
+			{
+				"time" : "18.700",
+				"subtitle" : "que se hubieran distinguido por su arrojo en el campo de batalla."
+			}
+		]
+	},
+	{
+		"name" : "Macehuales",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Escalon5"
+			},
+			{
+				"time" : "00.600",
+				"subtitle" : "Fuera de la nobleza se ubicaban los macehuales o trabajadores comunes",
+				"trigger" : "macehuales"
+			},
+			{
+				"time" : "05.500",
+				"subtitle" : "constituían la mayor parte de la población y formaban el grupo de los no privilegiados."
+			},
+			{
+				"time" : "11.300",
+				"subtitle" : "Eran los campesinos, los comerciantes y los artesanos de las ciudades."
+			},
+			{
+				"time" : "15.600",
+				"subtitle" : "Debían ofrecer tributos al Estado en alimentos y trabajo."
+			}
+		]
+	},
+	{
+		"name" : "Tlacotli",
+		"subtitles" : [
+			{
+				"time" : "00.400",
+				"subtitle" : "Por último,",
+				"trigger" : "tlacotli"
+			},
+			{
+				"time" : "01.500",
+				"subtitle" : "en la sociedad mexica existían los tlacotli,"
+			},
+			{
+				"time" : "04.800",
+				"subtitle" : "quienes en su mayoría eran prisioneros de guerra,"
+			},
+			{
+				"time" : "07.700",
+				"subtitle" : "o personas que por haber contraído deudas o haber cometido algún delito,"
+			},
+			{
+				"time" : "11.700",
+				"subtitle" : "trabajaban para un amo sin recibir ningún tipo de pago."
+			}
+		]
+	},
+	{
+		"name" : "Estado",
+		"subtitles" : [
+		{
+				"time" : "00.000",
+				"trigger" : "Jerarquia"
+			},
+			{
+				"time" : "01.000",
+				"subtitle" : "El Estado"
+			},
+			{
+				"time" : "02.500",
+				"subtitle" : "Las leyes del Estado eran muy severas"
+			},
+			{
+				"time" : "05.100",
+				"subtitle" : "y los castigos variaban según el delito y el infractor."
+			},
+			{
+				"time" : "08.900",
+				"subtitle" : "Existía la pena de muerte para los delitos de"
+			},
+			{
+				"time" : "12.400",
+				"subtitle" : "asesinato",
+				"trigger" : "Asesinato"
+			},
+			{
+				"time" : "13.600",
+				"trigger" : "Asesinato"
+			},
+			{
+				"time" : "13.700",
+				"subtitle" : "traición",
+				"trigger" : "Traicion"
+			},
+			{
+				"time" : "15.100",
+				"trigger" : "Traicion"
+			},
+			{
+				"time" : "15.200",
+				"subtitle" : "aborto",
+				"trigger" : "Aborto"
+			},
+			{
+				"time" : "16.700",
+				"trigger" : "Aborto"
+			},
+			{
+				"time" : "16.800",
+				"subtitle" : "incesto",
+				"trigger" : "Incesto"
+			},
+			{
+				"time" : "18.600",
+				"trigger" : "Incesto"
+			},
+			{
+				"time" : "18.700",
+				"subtitle" : "violación",
+				"trigger" : "Violacion"
+			},
+			{
+				"time" : "20.100",
+				"trigger" : "Violacion"
+			},
+			{
+				"time" : "20.200",
+				"subtitle" : "y adulterio.",
+				"trigger" : "Adulterio"
+			},
+			{
+				"time" : "21.800",
+				"subtitle" : "En este último caso se procedía a la lapidación,",
+				"trigger" : "pedradas"
+			},
+			{
+				"time" : "26.000",
+				"trigger" : "pedradas"
+			},
+			{
+				"time" : "26.100",
+				"subtitle" : "aunque la mujer era estrangulada previamente.",
+				"trigger" : "estrangular"
+			},
+			{
+				"time" : "29.800",
+				"trigger" : "estrangular"
+			},
+			{
+				"time" : "29.900",
+				"subtitle" : "Los guerreros podían escapar de la pena de muerte aceptando un destino permanente en zona fronteriza.",
+				"trigger" : "Adulterio"
+			}
+		]
+	},
+	{
+		"name" : "Regiones",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Tributos"
+			},
+			{
+				"time" : "00.400",
+				"subtitle" : "Algunas regiones del imperio mexica",
+				"trigger" : "PinTenochtitlan"
+			},
+			{
+				"time" : "02.400",
+				"subtitle" : "eran gobernadas directamente por funcionarios nombrados en Tenochtitlan",
+				"trigger" : "PiramideNueva"
+			},
+			{
+				"time" : "03.400",
+				"trigger" : "tlatoani-mapa"
+			},
+			{
+				"time" : "07.200",
+				"subtitle" : "En otros señoríos,"
+			},
+			{
+				"time" : "08.400",
+				"subtitle" : "que habían aceptado pagar tributo a los mexicas,",
+				"trigger" : "Piramide"
+			},
+			{
+				"time" : "12.000",
+				"subtitle" : "la administración estaba a cargo de la nobleza local,"
+			},
+			{
+				"time" : "15.800",
+				"subtitle" : "que debía rendir cuentas ante los gobernantes de la capital imperial."
+			},
+			{
+				"time" : "19.900",
+				"subtitle" : "El Códice Mendocino y la Matrícula de tributos,",
+				"trigger" : "codice-mendoza"
+			},
+			{
+				"time" : "21.000",
+				"trigger" : "matricula-tributaria"
+			},
+			{
+				"time" : "23.600",
+				"subtitle" : "dan cuenta de los tributos que le pagaban diferentes pueblos a los mexicas."
+			}
+		]
+	}]
+}

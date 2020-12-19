@@ -17,6 +17,8 @@ public class CanvasManager : MonoBehaviour
     private ARPlaneManager planeManager;
     private bool isRunningExplication, isReadyToPlay;
     private Dictionary<string, string> instructions = new Dictionary<string, string>();
+    private IdiomaAdmin idiomaAdmin;
+    private string idioma,idiomaSubtitulos;
 
     private void Awake()
     {
@@ -24,15 +26,27 @@ public class CanvasManager : MonoBehaviour
         {
             content.Add(prefab.name, prefab);
         }
-        instructions.Add("inicio", "Selecciona un tema del menú");
-        instructions.Add("colocar", "Toca el plano generado");
-        instructions.Add("ajustar", "Ajusta tamaño, posición y rotación");
-        instructions.Add("reproduciendo", string.Empty);
+        
+        
         planeManager = GetComponent<ARPlaneManager>();
+        idiomaAdmin = GetComponent<IdiomaAdmin>();
     }
 
     private void Start()
     {
+        idioma = idiomaAdmin.gameSettings.idioma;
+        idiomaSubtitulos = idiomaAdmin.gameSettings.subtitulos;
+        if (idioma.Equals("español")){
+            instructions.Add("inicio", "Selecciona un tema del menú");
+            instructions.Add("colocar", "Toca el plano generado");
+            instructions.Add("ajustar", "Ajusta tamaño, posición y rotación");
+        }else
+        {
+            instructions.Add("inicio", "Choose a topic from the menu");
+            instructions.Add("colocar", "Touch the generated plane");
+            instructions.Add("ajustar", "Adjust size, position and rotation");
+        }
+        instructions.Add("reproduciendo", string.Empty);
         textInstruction.text = instructions["inicio"];
     }
 
@@ -135,5 +149,15 @@ public class CanvasManager : MonoBehaviour
         helpPanel.SetBool("IsActive", true);
         if(isRunningExplication)
             PauseInteractive();
+    }
+
+    public string GetIdioma()
+    {
+        return idioma;
+    }
+
+    public string GetSubtitles()
+    {
+        return idiomaSubtitulos;
     }
 }

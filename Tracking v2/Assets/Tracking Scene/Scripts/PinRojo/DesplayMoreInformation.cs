@@ -26,11 +26,11 @@ public class DesplayMoreInformation : MonoBehaviour
             touchPosition = touch.position;
             if (touch.phase == TouchPhase.Began)
             {
-                Ray ray = arCamera.ScreenPointToRay(touch.position);
+                Ray ray = arCamera.ScreenPointToRay(touchPosition);
                 RaycastHit hitObject;
                 if (Physics.Raycast(ray, out hitObject))
                 {
-                    if (hitObject.collider == gameObject.GetComponent<MeshCollider>())
+                    if (hitObject.collider == gameObject.GetComponent<Collider>())
                     {
                         panelInformationAnimator.SetBool("IsActive", true);
                         isDeploying = true;
@@ -46,7 +46,7 @@ public class DesplayMoreInformation : MonoBehaviour
             RaycastHit hitObject;
             if (Physics.Raycast(ray, out hitObject))
             {
-                if (hitObject.collider == gameObject.GetComponent<MeshCollider>())
+                if (hitObject.collider == gameObject.GetComponent<Collider>())
                 {
                     panelInformationAnimator.SetBool("IsActive", true);
                     isDeploying = true;
@@ -58,6 +58,16 @@ public class DesplayMoreInformation : MonoBehaviour
                 }
             }
         }
+    }
+
+    public static bool IsDeployed()
+    {
+        return isDeploying;
+    }
+
+    public static void SetDeploy(bool value)
+    {
+        isDeploying = value;
     }
 
     public void CloseInformationWindow()

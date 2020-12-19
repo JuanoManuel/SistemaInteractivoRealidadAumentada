@@ -1,5 +1,130 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &288270671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 288270672}
+  - component: {fileID: 288270676}
+  - component: {fileID: 288270675}
+  - component: {fileID: 288270674}
+  - component: {fileID: 288270673}
+  m_Layer: 5
+  m_Name: Parrafo (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &288270672
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288270671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5481104911004012766}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &288270676
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288270671}
+  m_CullTransparentMesh: 0
+--- !u!114 &288270675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288270671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 35
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 90
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'The evidence indicate the corresponding entombments to victims of ritual
+    sacrifices, done for consecrate the successive pyramid construction phases, with
+    sacrifices where found animales such as a wolf, a falcon, Cougars, Eagles and
+    rattlesnakes, as also detailed offerings: like obsidian weapons or jade figures.'
+--- !u!114 &288270674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288270671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: 700
+  m_MinHeight: 418.4
+  m_PreferredWidth: 520
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &288270673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288270671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "La evidencia indica que los entierros corresponden a v\xEDctimas
+    de sacrificios rituales, realizados para consagrar las sucesivas etapas de la
+    construcci\xF3n de la pir\xE1mide.\r Junto con los sacrificados se encontraron
+    restos de animales como un lobo, un halc\xF3n, pumas, \xE1guilas y v\xEDboras
+    de cascabel, al igual que  ofrendas finamente elaboradas:como armas de obsidiana
+    o figuras de jade."
+  ingles: 'The evidence indicate the corresponding entombments to victims of ritual
+    sacrifices, done for consecrate the successive pyramid construction phases, with
+    sacrifices where found animales such as a wolf, a falcon, Cougars, Eagles and
+    rattlesnakes, as also detailed offerings: like obsidian weapons or jade figures.'
 --- !u!1 &361996377229015839
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,7 +180,7 @@ MonoBehaviour:
   - {fileID: 544020012697585299}
   - {fileID: 251779378904459867}
   - {fileID: 4872720895892945711}
-  - {fileID: 5008909432429300204}
+  - {fileID: 1652987000000618409}
   - {fileID: 5520612937798066162}
   - {fileID: 4478203117850294479}
   - {fileID: 6029928659287695556}
@@ -137,6 +262,83 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Axis: {x: 0, y: -1, z: 0}
   Space: 1
+--- !u!114 &188053840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744022386967747520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Templo de Quetzalc\xF3atl"
+  ingles: Temple of Quetzalcoatl
+--- !u!114 &2143570098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2663395226437133581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Fue construido entre los a\xF1os 150 a 250 d.C. Es uno de los edificios
+    con una de las decoraciones m\xE1s bellas y complejas de la \xE9poca prehisp\xE1nica,
+    y seguramente en el pasado se ve\xEDa m\xE1s impresionante, pues estuvo pintado
+    de colores intensos. El templo de Quetzalcoatl se trata del tercer monumento
+    m\xE1s grande de Teotihuacan."
+  ingles: It was builded between the years 150 to 250 dc. It's one of the buildings
+    with the most beautiful and complex decorations of the pre hispanic and for sure
+    in the past it looked more impressive, it was known the painting had pretty intense
+    colors. The Temple of Quetzalcoatl is the third biggest monument of Teotihuacan.
+--- !u!114 &6489049620332127877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2766887789666314280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": Ir a la Ciudadela
+  ingles: Go to the Citadel
+--- !u!114 &1208616127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3570093786770546030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": Conjunto de Quetzalpapalotl
+  ingles: Palace of Quetzalpapalotl
+--- !u!114 &6766777852416412534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4131562094368020254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": Piramide del sol
+  ingles: Pyramid of the Sun
 --- !u!114 &2891512931340497596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +352,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 8662695690711080824}
+--- !u!114 &1208616129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4842332048899963475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": Piramide del sol
+  ingles: 'Pyramid of the Sun
+
+'
+--- !u!114 &3963273849173918400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5113422625838401912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "La pir\xE1mide del sol es la construcci\xF3n m\xE1s grande de Teotihuac\xE1n:
+    mide 225 m por lado y alcanza unos 65 m de altura.\r\nSe encuentra ubicada en
+    el centro de la calzada de los muertos.\r"
+  ingles: 'The pyramid of the sun is the greatest construction of Teotihuacan: measures
+    225m by side and reaches about 65m of height. It''s located in the center of
+    the avenue of the death.'
+--- !u!114 &5088498420510917532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5471503975086043171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Conjunto de Quetzalpap\xE1lotl"
+  ingles: Palace of Quetzalpapalotl
+--- !u!114 &4272074530357991976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150589248453171013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": Piramide de la luna
+  ingles: Pyramid of the Moon
 --- !u!65 &992762674045282973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -196,6 +460,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextModel: {fileID: 704663911568643284}
   active: 1
+--- !u!114 &1208616131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093159410286605332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": 
+  ingles: The palace of quetzalpapalotl contains parts of other constructions such
+    as the jaguar temple, called in that way for the north side murals, where are
+    observable felines who plays trumpets of snail shape with feathers. The substructure
+    of the feathered snails is a platform and a temple from the previous age to Quetzalpapalotl.
+    On the board of the platform can be seen wall paintings with representations
+    of birds, perhaps parrots or macaws, which their beaks forms watercourses. The
+    temple central pilasters used to be decorated with feathered snails representations,
+    which give that name at the building, additionally in the ends can be observed
+    flowers with four petals, trending in the teotihuacan iconography
 --- !u!1001 &3843508278651926433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -203,10 +489,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 361996377229015838}
     m_Modifications:
+    - target: {fileID: 530878696016615536, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 579.2
+      objectReference: {fileID: 0}
     - target: {fileID: 816744207480712841, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 816744207636672307, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816744207636672307, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 816744209504984016, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
@@ -418,35 +719,45 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3193825134596826520, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193825134596826520, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3464735810193724105, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3464735810193724105, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3464735810193724105, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 350
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3464735810193724105, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -441.1
+      value: -454.7
       objectReference: {fileID: 0}
     - target: {fileID: 3464735810193724105, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 665.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3464735810193724105, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 552
+      value: 579.2
       objectReference: {fileID: 0}
     - target: {fileID: 3759421984443056207, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
@@ -471,32 +782,32 @@ PrefabInstance:
     - target: {fileID: 4010098054761319228, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4010098054761319228, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4010098054761319228, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 350
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4010098054761319228, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -72.55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4010098054761319228, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 700
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4010098054761319228, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 145.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149101089132081470, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
@@ -558,6 +869,21 @@ PrefabInstance:
       propertyPath: m_textInfo.materialCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4483204664347778343, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483204664347778343, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483204664347778343, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4678033745965741292, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -591,32 +917,32 @@ PrefabInstance:
     - target: {fileID: 4699628538729678862, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4699628538729678862, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4699628538729678862, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 350
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4699628538729678862, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -947.1
+      value: -974.30005
       objectReference: {fileID: 0}
     - target: {fileID: 4699628538729678862, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 665.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4699628538729678862, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 420
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5055663298812978815, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
@@ -711,17 +1037,17 @@ PrefabInstance:
     - target: {fileID: 5579662791443622103, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5579662791443622103, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5579662791443622103, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5579662791443622105, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
@@ -751,32 +1077,41 @@ PrefabInstance:
     - target: {fileID: 6441043266322984046, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5066458
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6441043266322984046, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6441043266322984046, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6443198356359711386, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_Value
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6781771699776936509, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_Text
+      value: It was builded between the years 150 to 250 dc. It's one of the buildings
+        with the most beautiful and complex decorations of the pre hispanic and for
+        sure in the past it looked more impressive, it was known the painting had
+        pretty intense colors. The Temple of Quetzalcoatl is the third biggest monument
+        of Teotihuacan.
+      objectReference: {fileID: 0}
     - target: {fileID: 6820673885472091261, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6820673885472091261, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7002610842297117908, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
@@ -791,22 +1126,22 @@ PrefabInstance:
     - target: {fileID: 7659409561875728055, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26999.998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659409561875728055, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1149552
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659409561875728055, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 700
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659409561875728055, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1157.1
+      value: 1184.3
       objectReference: {fileID: 0}
     - target: {fileID: 7858633473219330497, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
@@ -817,6 +1152,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282990520849395766, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+        type: 3}
+      propertyPath: m_Text
+      value: "Templo de Quetzalc\xF3atl"
       objectReference: {fileID: 0}
     - target: {fileID: 8399192136442462619, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
         type: 3}
@@ -885,6 +1225,18 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 3843508278651926433}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &744022386967747520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4541227119269948513, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3843508278651926433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2663395226437133581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1270197281124225708, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3843508278651926433}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4468497639275557111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 816744209185949526, guid: c6de97f31760bf44a8e1e5d78a9fb02a,
@@ -898,6 +1250,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 361996377229015838}
     m_Modifications:
+    - target: {fileID: 527722372, guid: 105f5b21f0970ba4c8420a67bcead711, type: 3}
+      propertyPath: nextModel
+      value: 
+      objectReference: {fileID: 8662695690711080824}
+    - target: {fileID: 31329297756683976, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 31329297756683976, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 67999530956653530, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_Mesh
@@ -968,6 +1334,38 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 550140449276434479, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 552682369834548955, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 552682369834548955, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 552682369834548955, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 556682515172905070, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_Text
+      value: 'The Pyramid of the Moon is the second tallest structure of the city
+        after the Pyramid of the Sun. It is found at the north part of the avenue
+        of the death.
+
+        It has a square floor base with about 150 meters length
+        east west and 130 meters north south, a height which in the actuality is
+        of 42 meters. With the Plaza of the Moon that is found in front of it constitude
+        one of the most important spaces of Teotihuacan.'
+      objectReference: {fileID: 0}
     - target: {fileID: 590862713316402912, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -983,6 +1381,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 790969767446173373, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 156.6
+      objectReference: {fileID: 0}
     - target: {fileID: 1122047218390610578, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_Mesh
@@ -996,6 +1399,16 @@ PrefabInstance:
     - target: {fileID: 1230437547099973618, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495411791586073055, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495411791586073055, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1645973397058938849, guid: 105f5b21f0970ba4c8420a67bcead711,
@@ -1043,15 +1456,20 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1891883267956433275, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.16
+      objectReference: {fileID: 0}
     - target: {fileID: 2041902585819411300, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -122022.12
+      value: -155992.62
       objectReference: {fileID: 0}
     - target: {fileID: 2041902585819411300, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 4044200.2
+      value: 5477492
       objectReference: {fileID: 0}
     - target: {fileID: 2041902585819411300, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1068,20 +1486,45 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2370716843718214022, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2370716843718214022, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2420666530077609782, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2711495953041928447, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2711495953041928447, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2711495953041928447, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2737962927498710328, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -290309.8
+      value: -324280.3
       objectReference: {fileID: 0}
     - target: {fileID: 2737962927498710328, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 19860856
+      value: 21294150
       objectReference: {fileID: 0}
     - target: {fileID: 2737962927498710328, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1163,12 +1606,27 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2952015835987392374, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2952015835987392374, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2952015836404466581, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3023352478789425921, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046482464842830638, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1298,10 +1756,40 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3783898332038222850, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -13320
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783898332038222850, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 480886.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783898332038222850, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783898332038222850, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4018370706388303011, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018370708188973120, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018370708188973120, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4063748599217863980, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1333,6 +1821,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4342371200256462319, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_Name
+      value: Piramide-luna
+      objectReference: {fileID: 0}
     - target: {fileID: 4428699504328423669, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_IsActive
@@ -1342,6 +1835,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604629781440020065, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604629781440020065, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_Size
+      value: 0.49335417
+      objectReference: {fileID: 0}
+    - target: {fileID: 4637350737569376544, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4637350737569376544, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4637350737569376544, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4637350737569376544, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4736450970855833327, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1401,12 +1924,12 @@ PrefabInstance:
     - target: {fileID: 5421986902060764064, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_fontSize
-      value: 0.35
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5421986902060764064, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 13
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 5669323593929595268, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1416,6 +1939,11 @@ PrefabInstance:
     - target: {fileID: 5669323593929595268, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734109127376761179, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_Spacing
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5734350850049620122, guid: 105f5b21f0970ba4c8420a67bcead711,
@@ -1461,7 +1989,7 @@ PrefabInstance:
     - target: {fileID: 6019158665425531580, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6186990199237070332, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1478,6 +2006,46 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6507495813537157195, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507495813537157195, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746579436158089548, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746579436158089548, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746579436158089548, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746579436158089548, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746579436158089548, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746579436158089548, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6757153657719553664, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1492,6 +2060,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989342486180351890, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989342486180351890, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989342486180351890, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198508834203184663, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198508834203184663, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7254014823099508963, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1593,6 +2186,36 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7597029383958239625, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597029383958239625, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597029383958239625, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597029383958239625, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597029383958239625, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597029383958239625, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7675954574961546839, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_IsActive
@@ -1628,15 +2251,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7923000046397126394, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_Text
+      value: 'The pyramid of the sun is the biggest construction of Teotihuacan:
+        measures 225m by side and reaches about 65m of height. It''s located in the
+        center of the avenue of the death.'
+      objectReference: {fileID: 0}
     - target: {fileID: 7993508498091922521, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -122742.12
+      value: -32170.516
       objectReference: {fileID: 0}
     - target: {fileID: 7993508498091922521, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 4363664
+      value: 1331556.4
       objectReference: {fileID: 0}
     - target: {fileID: 7993508498091922521, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1656,12 +2286,12 @@ PrefabInstance:
     - target: {fileID: 8204733603611847535, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -289231.25
+      value: -323201.75
       objectReference: {fileID: 0}
     - target: {fileID: 8204733603611847535, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 11806916
+      value: 1944.0001
       objectReference: {fileID: 0}
     - target: {fileID: 8204733603611847535, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1671,6 +2301,16 @@ PrefabInstance:
     - target: {fileID: 8204733603611847535, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257934992963417901, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257934992963417901, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_LocalScale.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8334660049763712848, guid: 105f5b21f0970ba4c8420a67bcead711,
@@ -1717,6 +2357,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632370349429310717, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 462
       objectReference: {fileID: 0}
     - target: {fileID: 8652039698000249011, guid: 105f5b21f0970ba4c8420a67bcead711,
         type: 3}
@@ -1843,8 +2488,79 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9040112043428012001, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: "espa\xF1ol"
+      value: "La Pir\xE1mide de la Luna es la segunda estructura m\xE1s alta de la
+        ciudad despu\xE9s de la Pir\xE1mide del Sol. Se encuentra en la parte norte
+        de la Calzada de los Muertos.\r \nPresenta una base de planta rectangular,
+        tiene 150 metros de longitud este-oeste y 130 metros de norte a sur y una
+        altura que en la actualidad es de 42 metros. Junto  con la Plaza de la Luna
+        que se encuentra delante de ella constituye uno de los espacios m\xE1s importantes
+        de Teotihuac\xE1n.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040112043428012001, guid: 105f5b21f0970ba4c8420a67bcead711,
+        type: 3}
+      propertyPath: ingles
+      value: 'The Pyramid of the Moon is the second tallest structure of the city
+        after the Pyramid of the Sun. It is found at the north part of the avenue
+        of the death.
+
+        It has a square floor base with about 150 meters length
+        east west and 130 meters north south, a height which in the actuality is
+        of 42 meters. With the Plaza of the Moon that is found in front of it constitude
+        one of the most important spaces of Teotihuacan.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 105f5b21f0970ba4c8420a67bcead711, type: 3}
+--- !u!95 &5520612937798066162 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3751208956689570606, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4872720895892945711 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4254970683623063539, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &251779378904459867 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8929882278616739463, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4131562094368020254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4739353929020183490, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4842332048899963475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4296640528511155855, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5113422625838401912 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4496094727310200228, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1652987000000618409 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7954278845379500917, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &5481104911004012766 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3783898332038222850, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &704663911568643284 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8166337310850928648, guid: 105f5b21f0970ba4c8420a67bcead711,
@@ -1863,21 +2579,9 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 8688517476547282140}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &6029928659287695556 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3115730864388285464, guid: 105f5b21f0970ba4c8420a67bcead711,
-    type: 3}
-  m_PrefabInstance: {fileID: 8688517476547282140}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &5520612937798066162 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3751208956689570606, guid: 105f5b21f0970ba4c8420a67bcead711,
-    type: 3}
-  m_PrefabInstance: {fileID: 8688517476547282140}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &5008909432429300204 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4400271971465727280, guid: 105f5b21f0970ba4c8420a67bcead711,
+--- !u!1 &7150589248453171013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1992895153426699161, guid: 105f5b21f0970ba4c8420a67bcead711,
     type: 3}
   m_PrefabInstance: {fileID: 8688517476547282140}
   m_PrefabAsset: {fileID: 0}
@@ -1887,15 +2591,33 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 8688517476547282140}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &4872720895892945711 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4254970683623063539, guid: 105f5b21f0970ba4c8420a67bcead711,
+--- !u!1 &5471503975086043171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3710261839389259007, guid: 105f5b21f0970ba4c8420a67bcead711,
     type: 3}
   m_PrefabInstance: {fileID: 8688517476547282140}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &251779378904459867 stripped
+--- !u!95 &6029928659287695556 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 8929882278616739463, guid: 105f5b21f0970ba4c8420a67bcead711,
+  m_CorrespondingSourceObject: {fileID: 3115730864388285464, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3570093786770546030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5267054314443397554, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2766887789666314280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6842697728862121204, guid: 105f5b21f0970ba4c8420a67bcead711,
+    type: 3}
+  m_PrefabInstance: {fileID: 8688517476547282140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9093159410286605332 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 478143325270831304, guid: 105f5b21f0970ba4c8420a67bcead711,
     type: 3}
   m_PrefabInstance: {fileID: 8688517476547282140}
   m_PrefabAsset: {fileID: 0}

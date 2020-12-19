@@ -37,6 +37,9 @@ public class SyncExplication : MonoBehaviour
     private Dictionary<string, Subtitle[]> subtitles = new Dictionary<string, Subtitle[]>();
     //tema actual de la explicacion
     private string currentTopic;
+    //idioma en el que se mostraran los subtitulos
+    //en: english es:español
+    private string idioma = "es";
     //audioSource de la camara principal
     private AudioSource audioSource;
     //referencia al gamecontroller
@@ -44,10 +47,34 @@ public class SyncExplication : MonoBehaviour
 
     private void Awake()
     {
-        //Cargamos el Json a sus Objetos equivalentes
-        var textAsset = Resources.Load<TextAsset>("Subtitles/" + fileName);
-        var voText = JsonUtility.FromJson<SubtitlesPack>(textAsset.text);
+        //referencia al gamecontroller
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<CanvasManager>();
+        //referencia al control de audio de la camara
+        audioSource = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>();
+    }
+    private void Start()
+    {
+        time = 0f;
+        lastIndex = 0;
+        playingAudio = true;
+        currentTopic = topicsToPlay[0];
+        topicIndex = 0;
+    }
 
+    private void OnEnable()
+    {
+        //obtenemos el idioma en el que se mostraran los subtitulos
+        displaySubtitles = true;
+        if (gameController.GetSubtitles() == "español")
+            idioma = "es";//terminacion "es" para español
+        else if (gameController.GetSubtitles() == "ingles")
+            idioma = "en";//terminacion "en" para ingles
+        else
+            displaySubtitles = false;
+        Debug.Log(idioma);
+        //Cargamos el Json a sus Objetos equivalentes
+        var textAsset = Resources.Load<TextAsset>("Subtitles/" + fileName + "-" + idioma);
+        var voText = JsonUtility.FromJson<SubtitlesPack>(textAsset.text);
         //Poblamos el diccionario de subtitulos
         foreach (var t in voText.pack)
         {
@@ -58,19 +85,6 @@ public class SyncExplication : MonoBehaviour
         {
             objects[obj.gameObject.name] = obj;
         }
-        //referencia al gamecontroller
-        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<CanvasManager>();
-        //referencia al control de audio de la camara
-        audioSource = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>();
-
-    }
-    private void Start()
-    {
-        time = 0f;
-        lastIndex = 0;
-        playingAudio = true;
-        currentTopic = topicsToPlay[0];
-        topicIndex = 0;
     }
 
     private void Update()
@@ -123,7 +137,6 @@ public class SyncExplication : MonoBehaviour
             }
             else
             {
-                Debug.Log("Fin... Esperando a que se termine de reproducir el audio");
                 //esperamos a que se termine de reproducir el audio actual
                 if (!audioSource.isPlaying)
                 {
@@ -132,7 +145,6 @@ public class SyncExplication : MonoBehaviour
                     //Reseteamos todos los canvas del gameManager
                     if (topicIndex >= topicsToPlay.Length)
                     {
-                        Debug.Log("Termino explicacion");
                         start = false;
                         topicIndex = 0;
                         if (displaySubtitles)
@@ -141,7 +153,6 @@ public class SyncExplication : MonoBehaviour
                         //si no se empieza con la explicacion del siguiente modelo
                         if (isLast)
                         {
-                            Debug.Log("Terminando tema");
                             gameController.FinishInteractive();
                         }
                     }

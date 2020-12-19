@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 854961738692777850}
   - component: {fileID: 374386772061895823}
   - component: {fileID: 9015692126237842022}
+  - component: {fileID: 1459144980}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -176,11 +177,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "La Zona Arqueol\xF3gica de Cantona, en Puebla, considerada la ciudad m\xE1s
-    extensa\r de Mesoam\xE9rica, aument\xF3 sus espacios de visita de 12 a casi 20
-    hect\xE1reas, luego\r de intensos trabajos arqueol\xF3gicos realizados   durante
-    los \xFAltimos a\xF1os por\r expertos del Instituto Nacional de Antropolog\xEDa
-    e Historia (INAH-Conaculta)."
+  m_Text: The archeological zone of Cantona, Puebla, was considered the extensest
+    of Mesoamerica, increasing its visit zones from 12 to almost 20 hectares, after
+    intense archaeological works made during the last few years by experts from the
+    INAH-Conaculta.
 --- !u!114 &9015692126237842022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,12 +195,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
   m_MinWidth: 700
-  m_MinHeight: 250
+  m_MinHeight: 334.9
   m_PreferredWidth: 700
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1459144980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794331893270284667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "La Zona Arqueol\xF3gica de Cantona, en Puebla, considerada la ciudad
+    m\xE1s extensa\r de Mesoam\xE9rica, aument\xF3 sus espacios de visita de 12 a
+    casi 20 hect\xE1reas, luego\r de intensos trabajos arqueol\xF3gicos realizados  
+    durante los \xFAltimos a\xF1os por\r expertos del Instituto Nacional de Antropolog\xEDa
+    e Historia (INAH-Conaculta)."
+  ingles: The archeological zone of Cantona, Puebla, was considered the extensest
+    of Mesoamerica, increasing its visit zones from 12 to almost 20 hectares, after
+    intense archaeological works made during the last few years by experts from the
+    INAH-Conaculta.
 --- !u!1 &1778082450792809406
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +234,7 @@ GameObject:
   - component: {fileID: 8101494611299006124}
   - component: {fileID: 1671403023116844515}
   - component: {fileID: 3412531192208998104}
+  - component: {fileID: 1786952710}
   m_Layer: 5
   m_Name: Texto (2)
   m_TagString: Untagged
@@ -298,12 +320,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
   m_MinWidth: 700
-  m_MinHeight: 250
+  m_MinHeight: 369.6
   m_PreferredWidth: 700
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1786952710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778082450792809406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Tula, junto con Teotihuacan y Tenochtitlan, fue uno de los grandes
+    centros urbanos del Altiplano\r Central de Mesoam\xE9rica. La ciudad tuvo una
+    larga vida de casi cuatro siglos en su momento de\r m\xE1ximo apogeo (900 -1000
+    d. C.); de hecho, hacia el a\xF1o 1000 era probablemente la ciudad m\xE1s\r grande
+    de Mesoam\xE9rica, con una extensi\xF3n de casi 16 kil\xF3metros cuadrados."
+  ingles: Tula with Teotihuacan and Tenochtitlan was one of the greatest urban centers
+    of the Mesoamerica central plateau. The city had a large live of almost four
+    centuries in its moment of maximum climax (900 - 1000 d.C); In fact, Around the
+    1000 year probably was the greatest city of Mesoamerica, with a extension of
+    almost 16 squared kilometers.
 --- !u!1 &2728029397479609287
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,6 +360,7 @@ GameObject:
   - component: {fileID: 6581883419898604255}
   - component: {fileID: 2585014924185005589}
   - component: {fileID: 4679532126098051967}
+  - component: {fileID: 1459144975}
   m_Layer: 5
   m_Name: Texto (1)
   m_TagString: Untagged
@@ -401,12 +446,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
   m_MinWidth: 700
-  m_MinHeight: 250
+  m_MinHeight: 325.9
   m_PreferredWidth: 700
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1459144975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2728029397479609287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": 
+  ingles: Located approximately at 85 km from the north of Mexico city in the hidalgo
+    state, the archaeological zone of Tula is a place where the time runs an a slow
+    and peaceful way The hard winds and the semi-dry climate own of the Mezquital
+    valley region, site the zone in a space where the sky is always blue.
 --- !u!1 &2857376377985710902
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +576,7 @@ GameObject:
   - component: {fileID: 8522884140092583296}
   - component: {fileID: 7375669829214689702}
   - component: {fileID: 8830567240278242210}
+  - component: {fileID: 1459144979}
   m_Layer: 5
   m_Name: Texto (1)
   m_TagString: Untagged
@@ -583,7 +646,7 @@ MonoBehaviour:
   m_Text: "Edificado al oriente del estado de Puebla, en los l\xEDmites con Veracruz,
     ahora\r muestra al p\xFAblico 29 conjuntos arquitect\xF3nicos m\xE1s, en los
     que se distribuyen\r alrededor de 150 estructuras prehisp\xE1nicas, entre ellas
-    pir\xE1mides y juegos de\r 1pelota, que fueron explorados y consolidados entre
+    pir\xE1mides y juegos de\r pelota, que fueron explorados y consolidados entre
     2007 y 2011."
 --- !u!114 &8830567240278242210
 MonoBehaviour:
@@ -605,6 +668,27 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1459144979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2963535025080301576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Edificado al oriente del estado de Puebla, en los l\xEDmites con
+    Veracruz, ahora\r muestra al p\xFAblico 29 conjuntos arquitect\xF3nicos m\xE1s,
+    en los que se distribuyen\r alrededor de 150 estructuras prehisp\xE1nicas, entre
+    ellas pir\xE1mides y juegos de\r pelota, que fueron explorados y consolidados
+    entre 2007 y 2011."
+  ingles: Builded at the west of the Puebla's state, in limits with Veracruz, now
+    shows at the public 29 archaeological sets more, including about 150 pre hispanic
+    structures with pyramids and ball games that were explored and consolidated between
+    2007 and 2011
 --- !u!1 &3932710846105279148
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +796,7 @@ GameObject:
   - component: {fileID: 8800172135650753800}
   - component: {fileID: 5567103485409671425}
   - component: {fileID: 3645772301958181233}
+  - component: {fileID: 2030897433461128922}
   m_Layer: 5
   m_Name: Text (1)
   m_TagString: Untagged
@@ -804,6 +889,30 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &2030897433461128922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4494359223311072956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Se considera que los primeros grupos que se asentaron en el valle
+    de Toluca, as\xED\r como en las cercan\xEDas de Teotenango, fueron de raigambre
+    otomiana y estuvieron\r presentes en el paraje llamado Ojo de Agua, en la parte
+    baja del cerro Tet\xE9petl; la\r presencia de los teotihuacanos, quienes llegaron
+    como emigrantes a esta zona del\r valle de Matlatzinco, influy\xF3 en las costumbres
+    y vida cotidiana de los pobladores\r originales hacia el a\xF1o 600-700 d.C."
+  ingles: It is considered the first groups that were settled at the Toluca's valley,
+    as well as on the surroundings of Teotenango, were of otomi's culture and were
+    present in the place called "Ojo de Agua", on the bottom part of Tetepetl's hill;
+    The presence of the teotihuacans, those who arrived as emigrants at this zone
+    of Matlatzinco's valley, influenced in the manners and ordinary life of the original
+    population from the years 600-700 D.C.
 --- !u!1 &4702218692881957928
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,6 +925,7 @@ GameObject:
   - component: {fileID: 8915028650246065929}
   - component: {fileID: 6755977440541779414}
   - component: {fileID: 4708024532867542266}
+  - component: {fileID: 7509414526883449483}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -882,11 +992,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Xochit\xE9catl es un gentilicio que significa el habitante o el nativo
-    de Xochitlan, mientras que otra\r traducci\xF3n podr\xEDa ser \u201CLugar del
-    Linaje de las Flores\u201D. Cacaxtla se deriva del vocablo Cacaxtli,\r que literalmente
-    significa \u201CLugar de Cacaxtles\u201D, siendo estas unas armazones ind\xEDgenas\r
-    empleadas para transportar productos."
+  m_Text: Xochitecatl it's a demonym which means inhabitant or native of Xochitlan,
+    another meaning could be "Flower's lineage place". Cacaxtla come from the term
+    Cacaxtli, that literally means "Place of Cacaxtles", being these indigenous amazon
+    especialiced in transporting products
 --- !u!114 &4708024532867542266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -901,12 +1010,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
   m_MinWidth: 700
-  m_MinHeight: 250
+  m_MinHeight: 337.5
   m_PreferredWidth: 700
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &7509414526883449483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4702218692881957928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Xochit\xE9catl es un gentilicio que significa el habitante o el
+    nativo de Xochitlan, mientras que otra\r traducci\xF3n podr\xEDa ser \u201CLugar
+    del Linaje de las Flores\u201D. Cacaxtla se deriva del vocablo Cacaxtli,\r que
+    literalmente significa \u201CLugar de Cacaxtles\u201D, siendo estas unas armazones
+    ind\xEDgenas\r empleadas para transportar productos."
+  ingles: Xochitecatl it's a demonym which means inhabitant or native of Xochitlan,
+    another meaning could be "Flower's lineage place". Cacaxtla come from the term
+    Cacaxtli, that literally means "Place of Cacaxtles", being these indigenous amazon
+    especialiced in transporting products
 --- !u!1 &5403779439241118018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,6 +1144,7 @@ GameObject:
   - component: {fileID: 5433311101690856614}
   - component: {fileID: 1596881066234667537}
   - component: {fileID: 113093190025011272}
+  - component: {fileID: 2426916032630451352}
   m_Layer: 5
   m_Name: Text (2)
   m_TagString: Untagged
@@ -1081,9 +1212,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Teotenango es una voz n\xE1huatl, se deriva de T\xE9otl (sagrado, dios,
-    divino); de\r tenamitl (muralla, cerco, albarrada) y de co, (indicativo de lugar);
-    es decir, puede\r traducirse como \u201C En el lugar de la muralla sagrada o
-    divina\u201D."
+    divino); de  tenamitl (muralla, cerco, albarrada) y de co, (indicativo de lugar);
+    es decir, puede  traducirse como \u201C En el lugar de la muralla sagrada o divina\u201D."
 --- !u!114 &113093190025011272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,6 +1234,25 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &2426916032630451352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6425309925320484223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Teotenango es una voz n\xE1huatl, se deriva de T\xE9otl (sagrado,
+    dios, divino); de  tenamitl (muralla, cerco, albarrada) y de co, (indicativo
+    de lugar); es decir, puede  traducirse como \u201C En el lugar de la muralla
+    sagrada o divina\u201D."
+  ingles: Teotenango it's a nahuatl voice, it come from "Teotl" (sacred,god,devine);
+    from tenemitl (wall, fence, stone fence) and from co (place indicator), which
+    can be translated to "On the place of the sacred or devine wall"
 --- !u!1 &6501418371859937816
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,6 +1360,7 @@ GameObject:
   - component: {fileID: 8481974800336107919}
   - component: {fileID: 5195710616161225976}
   - component: {fileID: 4994110435744934044}
+  - component: {fileID: 1459144976}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -1277,11 +1427,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cuenta una leyenda que el rey-sacerdote Quetzalc\xF3atl fund\xF3 la ciudad
-    de Tula despu\xE9s de vengar\r el asesinato de su padre, y comenz\xF3 as\xED
-    un gran periodo de esplendor para los toltecas, ya que de\r la mano de su gobernante
-    aprendieron artes e importantes doctrinas religiosas y realizaron\r grandes construcciones
-    como los atlantes, s\xEDmbolo que identifica la zona arqueol\xF3gica."
+  m_Text: The legend says the priest king Quetzalcoatl found the Tula's city after
+    revenge the assassination of his father and started a brilliant period for the
+    toltecs, since from the hand of their ruler they learned arts and important religious
+    doctrines also made big buildings like the "atlantes" symbol that identifies
+    the archaeological zone
 --- !u!114 &4994110435744934044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1296,12 +1446,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
   m_MinWidth: 700
-  m_MinHeight: 250
+  m_MinHeight: 376.3
   m_PreferredWidth: 700
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1459144976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299219006341586176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Cuenta una leyenda que el rey-sacerdote Quetzalc\xF3atl fund\xF3
+    la ciudad de Tula despu\xE9s de vengar\r el asesinato de su padre, y comenz\xF3
+    as\xED un gran periodo de esplendor para los toltecas, ya que de\r la mano de
+    su gobernante aprendieron artes e importantes doctrinas religiosas y realizaron\r
+    grandes construcciones como los atlantes, s\xEDmbolo que identifica la zona arqueol\xF3gica."
+  ingles: The legend says the priest king Quetzalcoatl found the Tula's city after
+    revenge the assassination of his father and started a brilliant period for the
+    toltecs, since from the hand of their ruler they learned arts and important religious
+    doctrines also made big buildings like the "atlantes" symbol that identifies
+    the archaeological zone
 --- !u!1 &7864469764558418574
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,6 +1486,7 @@ GameObject:
   - component: {fileID: 1178652300293055234}
   - component: {fileID: 7356366004391984175}
   - component: {fileID: 777835591341505841}
+  - component: {fileID: 810929338048298105}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -1405,12 +1578,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
   m_MinWidth: 700
-  m_MinHeight: 450
+  m_MinHeight: 820.7
   m_PreferredWidth: 700
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &810929338048298105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7864469764558418574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Xochit\xE9catl, fue erigido sobre la cima del Cerro Xochit\xE9catl
+    adecuando la arquitectura a la\r topograf\xEDa del cerro mediante terrazas habitacionales
+    y de cultivo, colocando los monumentos\r m\xE1s importantes en la cima incluyendo
+    la Pir\xE1mide de las Flores, la Pir\xE1mide de la Serpiente, la\r Pir\xE1mide
+    de la Espiral y el Basamento de los Volcanes. Xochit\xE9catl se desarroll\xF3\r
+    primordialmente durante el periodo Formativo (600-100 a.C.). Varios elementos
+    estudiados\r como el paisaje ritual, ofrendas de conjuntos de figurillas, entierros
+    humanos y elementos\r arqueo-astron\xF3micos, concuerdan en la concepci\xF3n
+    de un centro ceremonial principalmente\r\norientado hacia un culto a la fertilidad
+    y a la propiciaci\xF3n de lluvias, cuyos s\xEDmbolos parecen ser\r\ntransmitidos
+    a trav\xE9s de la imagen femenina."
+  ingles: xochitecatl was builded over the top of the hill Xochitecatl adapting the
+    architecture to the topography of the hill by residential terraces and for farming,
+    placing the most important monuments on the top of the hill including the flower's
+    pyramid, the snake's pyramid, spiral's pyramid and the volcano's base. Xochitecatl
+    was developed mainly during the formative period (600 - 100 b.C). Many studied
+    elements such as the ritual landscape, offerings of figure sets, human entombments
+    and archaeo-astronomical elements, make sense in the conception of a ceremonial
+    center mainly focuse towards worship to the fertility and to the rain, which
+    symbols seems to be transmitted through female image
 --- !u!1 &8028910620051202008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,6 +1795,7 @@ GameObject:
   - component: {fileID: 3990879274971808176}
   - component: {fileID: 5396217559155532553}
   - component: {fileID: 4353306842413559806}
+  - component: {fileID: 1459144977}
   m_Layer: 5
   m_Name: Texto (1)
   m_TagString: Untagged
@@ -1656,13 +1862,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "La ciudad prehisp\xE1nica de Cholula se encuentra a 7 km., de la actual
-    Ciudad de\rPuebla de Zaragoza en el Estado del mismo nombre. Es una ciudad con
-    una larga\r\nhistoria cultural que se remonta por lo menos al Precl\xE1sico Tard\xEDo,
-    pero es hasta el\r Cl\xE1sico que la ciudad toma importancia al formar parte
-    de la red comercial de\r Teotihuac\xE1n hacia el sureste, regi\xF3n de d\xF3nde
-    proven\xEDa la cer\xE1mica anaranjado\r delgado, de gran importancia comercial
-    en esa \xE9poca."
+  m_Text: The pre hispanic city of Cholula its located at 7 km from the actual "Puebla
+    de Zaragoza" city on the state with the same name. It's a city with a long cultural
+    story that starts in the late preclassic but it's until the classic that the
+    city become important when becoming part of the Teotihuacan's commercial network
+    at the southeast, region where came the anaranjado fine ceramic, which was of
+    big commercial importance in that time.
 --- !u!114 &4353306842413559806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1683,6 +1888,31 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1459144977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8675066697962286812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "La ciudad prehisp\xE1nica de Cholula se encuentra a 7 km., de la
+    actual Ciudad de\rPuebla de Zaragoza en el Estado del mismo nombre. Es una ciudad
+    con una larga\r\nhistoria cultural que se remonta por lo menos al Precl\xE1sico
+    Tard\xEDo, pero es hasta el\r Cl\xE1sico que la ciudad toma importancia al formar
+    parte de la red comercial de\r Teotihuac\xE1n hacia el sureste, regi\xF3n de
+    d\xF3nde proven\xEDa la cer\xE1mica anaranjado\r delgado, de gran importancia
+    comercial en esa \xE9poca."
+  ingles: The pre hispanic city of Cholula its located at 7 km from the actual "Puebla
+    de Zaragoza" city on the state with the same name. It's a city with a long cultural
+    story that starts in the late preclassic but it's until the classic that the
+    city become important when becoming part of the Teotihuacan's commercial network
+    at the southeast, region where came the anaranjado fine ceramic, which was of
+    big commercial importance in that time.
 --- !u!1 &9219902163802251950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1925,7 @@ GameObject:
   - component: {fileID: 7515191341050073472}
   - component: {fileID: 3188937950108858563}
   - component: {fileID: 5614884191596668608}
+  - component: {fileID: 1459144978}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -1761,9 +1992,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Su nombre deriva de la palabra prehisp\xE1nica Chollolan, que significa
-    \u201Clugar de\r huida\u201D. Tambi\xE9n se ha llegado a interpretar como \u201CAgua
-    que cae en el lugar de\r huida\u201D"
+  m_Text: Its name derives from the pre hispanic word "Chollolan", which means "place
+    of escape". Another interpretation could be "Water that falls on the place to
+    escape"
 --- !u!114 &5614884191596668608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1778,12 +2009,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
   m_MinWidth: 700
-  m_MinHeight: 250
+  m_MinHeight: 196.9
   m_PreferredWidth: 700
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1459144978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219902163802251950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d444a47ab752e49599da1ba869dba431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "espa\xF1ol": "Su nombre deriva de la palabra prehisp\xE1nica Chollolan, que significa
+    \u201Clugar de\r huida\u201D. Tambi\xE9n se ha llegado a interpretar como \u201CAgua
+    que cae en el lugar de\r huida\u201D"
+  ingles: Its name derives from the pre hispanic word "Chollolan", which means "place
+    of escape". Another interpretation could be "Water that falls on the place to
+    escape"
 --- !u!1001 &112922585078743243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1956,6 +2205,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2006,6 +2260,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2380167817492724044, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2051,6 +2315,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Mesh
@@ -2084,12 +2353,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7200
+      value: -8640
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2247048
+      value: 108216
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -2216,7 +2485,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
 --- !u!95 &223914332024450400 stripped
 Animator:
@@ -2396,6 +2666,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2444,6 +2719,16 @@ PrefabInstance:
     - target: {fileID: 2194375554392323344, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2194375555273811746, guid: 7abbb08fb0e59984d9d4274d6fb92581,
@@ -2521,6 +2806,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: "Cacaxtla - Xochit\xE9catl"
       objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Mesh
@@ -2554,12 +2844,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7199.995
+      value: -10079.998
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2245104
+      value: 536544
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -2610,6 +2900,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355502164730404963, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 76.23
       objectReference: {fileID: 0}
     - target: {fileID: 7606975904019288765, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -2686,17 +2981,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
---- !u!95 &829498716693593449 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 183150703371578795, guid: 7abbb08fb0e59984d9d4274d6fb92581,
-    type: 3}
-  m_PrefabInstance: {fileID: 650864876909662402}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5864431889150046750 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+    type: 3}
+  m_PrefabInstance: {fileID: 650864876909662402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &829498716693593449 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 183150703371578795, guid: 7abbb08fb0e59984d9d4274d6fb92581,
     type: 3}
   m_PrefabInstance: {fileID: 650864876909662402}
   m_PrefabAsset: {fileID: 0}
@@ -2867,6 +3163,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1798281387462242289, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Text
@@ -2938,6 +3239,11 @@ PrefabInstance:
     - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2380167817492724044, guid: 7abbb08fb0e59984d9d4274d6fb92581,
@@ -2964,6 +3270,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Spacing
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: "espa\xF1ol"
+      value: Teotenango
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: ingles
+      value: Teotenango
       objectReference: {fileID: 0}
     - target: {fileID: 3220853297688305662, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -2994,6 +3310,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Teotenango
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -3028,12 +3349,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -11159.998
+      value: -7421.333
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 775656
+      value: 41197.2
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -3099,6 +3420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_MinWidth
       value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355502164730404963, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 118.11
       objectReference: {fileID: 0}
     - target: {fileID: 7606975904019288765, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -3170,17 +3496,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
---- !u!224 &8991363756069516025 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
-    type: 3}
-  m_PrefabInstance: {fileID: 2642854464077172773}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &2749413186241527182 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 183150703371578795, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+    type: 3}
+  m_PrefabInstance: {fileID: 2642854464077172773}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &8991363756069516025 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
     type: 3}
   m_PrefabInstance: {fileID: 2642854464077172773}
   m_PrefabAsset: {fileID: 0}
@@ -3356,6 +3683,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3405,6 +3737,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2380167817492724044, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -3456,6 +3798,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: Tula
       objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Mesh
@@ -3489,12 +3836,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7199.99
+      value: -8640
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2247048
+      value: 119232
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -3545,6 +3892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355502164730404963, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 77.7
       objectReference: {fileID: 0}
     - target: {fileID: 7606975904019288765, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -3621,17 +3973,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
---- !u!95 &2597584177931897194 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 183150703371578795, guid: 7abbb08fb0e59984d9d4274d6fb92581,
-    type: 3}
-  m_PrefabInstance: {fileID: 2776143251799614657}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &9145724557437781533 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+    type: 3}
+  m_PrefabInstance: {fileID: 2776143251799614657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2597584177931897194 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 183150703371578795, guid: 7abbb08fb0e59984d9d4274d6fb92581,
     type: 3}
   m_PrefabInstance: {fileID: 2776143251799614657}
   m_PrefabAsset: {fileID: 0}
@@ -3817,6 +4170,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3867,6 +4225,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2380167817492724044, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -3912,6 +4280,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Mesh
@@ -3945,12 +4318,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7199.99
+      value: -38906.348
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2247048
+      value: 3421631.2
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -4269,6 +4642,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -4319,6 +4697,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2380167817492724044, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -4364,6 +4752,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Mesh
@@ -4397,12 +4790,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7200
+      value: -38657.023
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2247048
+      value: 3421169.8
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -4529,7 +4922,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
 --- !u!95 &4978574621578010690 stripped
 Animator:
@@ -4709,6 +5103,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -4758,6 +5157,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2194375555273811746, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -4834,6 +5243,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: Cholula
       objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Mesh
@@ -4867,12 +5281,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7200
+      value: -9000
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2247048
+      value: 312984
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -4923,6 +5337,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355502164730404963, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 84.2
       objectReference: {fileID: 0}
     - target: {fileID: 7606975904019288765, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -4999,7 +5418,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
 --- !u!224 &606481683522760916 stripped
 RectTransform:
@@ -5185,6 +5605,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -5234,6 +5659,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2194375555273811746, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -5310,6 +5745,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: Cantona
       objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Mesh
@@ -5343,12 +5783,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7200
+      value: -9221.334
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2247048
+      value: 395653.2
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -5399,6 +5839,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355502164730404963, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_MinHeight
+      value: 73.68
       objectReference: {fileID: 0}
     - target: {fileID: 7606975904019288765, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -5475,7 +5920,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
 --- !u!95 &5989486712548139363 stripped
 Animator:
@@ -5661,6 +6107,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -5711,6 +6162,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2380167817492724044, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -5756,6 +6217,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_Mesh
@@ -5789,12 +6255,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7199.99
+      value: -38906.348
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2247048
+      value: 3421631.2
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -6111,6 +6577,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1662876448187857331, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2194375554073815441, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -6164,6 +6635,11 @@ PrefabInstance:
     - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2194375554675147251, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_LocalScale.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2380167817492724044, guid: 7abbb08fb0e59984d9d4274d6fb92581,
@@ -6185,6 +6661,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: "espa\xF1ol"
+      value: Monte Alban
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: ingles
+      value: Monte Al
       objectReference: {fileID: 0}
     - target: {fileID: 3220853297688305662, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -6210,6 +6696,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674780298170734353, guid: 7abbb08fb0e59984d9d4274d6fb92581,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5093200945169655280, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -6244,12 +6735,12 @@ PrefabInstance:
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00390625
+      value: -30958.355
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 8423.999
+      value: 1181623.1
       objectReference: {fileID: 0}
     - target: {fileID: 6371172436942545628, guid: 7abbb08fb0e59984d9d4274d6fb92581,
         type: 3}
@@ -6376,7 +6867,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2880743105188365927, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7abbb08fb0e59984d9d4274d6fb92581, type: 3}
 --- !u!95 &8210294352777148071 stripped
 Animator:
@@ -6568,15 +7060,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19048ec6bee7c504c8408f71f9035aca, type: 3}
---- !u!1 &688283240927019327 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 19048ec6bee7c504c8408f71f9035aca,
-    type: 3}
-  m_PrefabInstance: {fileID: 8839625850497275958}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4599895057323635500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 19048ec6bee7c504c8408f71f9035aca,
+    type: 3}
+  m_PrefabInstance: {fileID: 8839625850497275958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &688283240927019327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 19048ec6bee7c504c8408f71f9035aca,
     type: 3}
   m_PrefabInstance: {fileID: 8839625850497275958}
   m_PrefabAsset: {fileID: 0}
