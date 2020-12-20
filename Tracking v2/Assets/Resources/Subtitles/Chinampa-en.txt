@@ -1,0 +1,166 @@
+{ "pack":[
+	{
+		"name" : "Intro",
+		"subtitles" : [
+			{
+				"time" : "00.200",
+				"subtitle": "Chinampa construction process"
+			}
+		]
+	},
+	{
+		"name" : "Pasos",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle": "the first step is to find a place with little depth in a lake"
+			},
+			{
+				"time" : "04.100",
+				"subtitle": "in this case, we can observe that in the middle section of the lake"
+			},
+			{
+				"time" : "07.600",
+				"subtitle": "there is a zone with minor depth."
+			},
+			{
+				"time" : "11.700",
+				"subtitle": " after that, sticks are gotten that will help us to delimit the terrain the chinampa will occupied.",
+				"trigger" : "estaca-modelo"
+			},
+			{
+				"time" : "17.700",
+				"subtitle": "In general, the chinampas are small"
+			},
+			{
+				"time" : "20.400",
+				"subtitle": "and it oscillate between 5 meters of length"
+			},
+			{
+				"time" : "22.600",
+				"subtitle": "and 3 meters of width."
+			},
+			{
+				"time" : "24.900",
+				"subtitle": "Next, The longest grasses are pulled from around the lake or lagoon"
+			},
+			{
+				"time" : "29.000",
+				"subtitle": "and layers of aquatic vegetation are added",
+				"trigger" : "composta"
+			},
+			{
+				"time" : "31.000",
+				"subtitle": "like lilies, grass, atlapalacatl"
+			},
+			{
+				"time" : "34.400",
+				"subtitle": "and tule"
+			},
+			{
+				"time" : "36.000",
+				"subtitle": "some sticks in the center"
+			},
+			{
+				"time" : "37.700",
+				"subtitle": "then, layers and layers of mud until you have a surface of 40 centimeters of height above the water",
+				"trigger" : "lodo1"
+			},
+			{
+				"time" : "38.200",
+				"trigger" : "lodo2"
+			},
+			{
+				"time" : "44.800",
+				"subtitle": "and always flatten to be smooth."
+			}
+		]
+	},
+	{
+		"name" : "OtrasFuentes",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle": "Other sources says"
+			},
+			{
+				"time" : "01.700",
+				"subtitle": "that this last layer used to be covered with silt from the bottom of the lake",
+				"trigger" : "tierra"
+			},
+			{
+				"time" : "05.700",
+				"subtitle": "that was extracted with a long stick of wood where in its extremity has a bag of leather installed"
+			},
+			{
+				"time" : "11.100",
+				"subtitle": "or with a bat or texpetlatl"
+			},
+			{
+				"time" : "13.600",
+				"subtitle": "which is a big wood spoon"
+			},
+			{
+				"time" : "15.300",
+				"subtitle": "Lastly"
+			},
+			{
+				"time" : "16.400",
+				"subtitle": "the chinampa was reinforced with huejotes or ahuejotes",
+				"trigger" : "ahuejote"
+			},
+			{
+				"time" : "19.800",
+				"subtitle": "which accomplish a double function"
+			},
+			{
+				"time" : "21.800",
+				"subtitle": "one was to pin up the chinampa to the lake"
+			},
+			{
+				"time" : "24.300",
+				"subtitle": "an the other one was prevent the erosion"
+			}
+		]
+	},
+	{
+		"name" : "Outro",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle": "Over the time"
+			},
+			{
+				"time" : "01.200",
+				"subtitle": "approximately at the four years of forged the chinampa"
+			},
+			{
+				"time" : "04.600",
+				"subtitle": "The decomposition of the organic material is almost complete",
+				"trigger" : "Water"
+			},
+			{
+				"time" : "08.100",
+				"subtitle": "and the roots of the ahuejote have grown enough",
+				"trigger" : "raiz"
+			},
+			{
+				"time" : "11.300",
+				"subtitle": "so as to the chinampa has converted in rich soil and porous",
+				"trigger": "Water"
+			},
+			{
+				"time" : "11.301",
+				"trigger": "Corn-model"
+			},
+			{
+				"time" : "14.600",
+				"subtitle": "thanks to its base mainly composed of decomposed materials"
+			},
+			{
+				"time" : "17.400",
+				"subtitle": "permeable to water and equilibrator of wetness."
+			}
+		]
+	}]
+}

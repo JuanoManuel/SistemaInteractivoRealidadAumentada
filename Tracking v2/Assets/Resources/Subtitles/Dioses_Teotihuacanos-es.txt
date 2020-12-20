@@ -1,0 +1,123 @@
+{ "pack":[
+	{
+		"name" : "Introduccion",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Los dioses teotihuacanos conformaron la base espiritual de los pueblos antiguos mexicanos.",
+				"trigger" : ""
+			},
+			{
+				"time" : "06.000",
+				"subtitle" : "Teotihuacán fue una de las ciudades precolombinas más florecientes, por lo que las deidades de esta zona tuvieron amplia trascendencia.",
+				"trigger" : ""
+			},
+			{
+				"time" : "15.150",
+				"subtitle" : "La religión teotihuacana se caracterizó por ser politeísta, es decir, adoraban a varios dioses que a su vez representaban elementos naturales como el fuego, el agua o la tierra.",
+				"trigger" : ""
+			},
+			{
+				"time" : "28.200",
+				"subtitle" : "Los principales fueron: Tláloc que representaba la lluvia o la guerra, y Quetzalcóatl que manifestaba la sabiduría. Otro dios era Huehuetéotl, un anciano venerado como símbolo del fuego.",
+				"trigger" : ""
+			}
+		]
+	},
+	{
+		"name" : "Araña",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "La gran Araña, fue venerada como la diosa de la oscuridad y del inframundo.",
+				"trigger" : "Araña"
+			},
+			{
+				"time" : "06.220",
+				"subtitle" : "Estaba representada con un tocado con la cara de un pájaro verde, parecido a una lechuza o un quetzal.",
+				"trigger" : "PinAraña"
+			}
+		]
+	},
+	{
+		"name" : "Huehueteotl",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Huehueteotl, es el dios del fuego y está representado como un anciano desdentado, arrugado, barbudo y jorobado.",
+				"trigger" : "Huehueteotl"
+			},
+			{
+				"time" : "07.800",
+				"subtitle" : "Los hallazgos arqueológicos lo ubican como uno de los dioses más antiguos.",
+				"trigger" : ""
+			},
+			{
+				"time" : "12.300",
+				"subtitle" : "La representación de Huehuetéotl está esculpida en piedra.",
+				"trigger" : ""
+			},
+			{
+				"time" : "16.400",
+				"subtitle" : "Sobre su cabeza hay una figura de rombo y sus manos reposan sobre sus piernas, una empuñada y la otra con la palma hacia el cielo.",
+				"trigger" : "PinHuehueteotl"
+			},
+			{
+				"time" : "25.000",
+				"subtitle" : "",
+				"trigger" : "HuehueteotlPiedra"
+			}
+		]
+	},
+	{
+		"name" : "Xipetotec",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Xipetotec, era el dios de las cosechas (del maíz y la agricultura), de la enfermedad y de la orfebrería.",
+				"trigger" : "Xipetotec"
+			},
+			{
+				"time" : "09.600",
+				"subtitle" : "Se le consideraba influyente en todos los aspectos vinculados con la vida, la muerte y la resurrección.",
+				"trigger" : "PinXipetotec"
+			}
+		]
+	},
+	{
+		"name" : "Tlaloc",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Tlaloc, es considerado uno de los dioses más temidos y adorados por los pueblos mesoamericanos.",
+				"trigger" : "Tlaloc"
+			},
+			{
+				"time" : "07.050",
+				"subtitle" : "Era el dios de la lluvia, de quien dependían los ciclos del agua necesarios para que crecieran los cultivos de estos pueblos, que eran netamente agrícolas.",
+				"trigger" : ""
+			},
+			{
+				"time" : "17.400",
+				"subtitle" : "Tláloc es representado con anteojeras y lengua bífida como la de una serpiente. También tiene caracoles y conchas, que representan su carácter fértil.",
+				"trigger" : "PinTlaloc"
+			}
+		]
+	},
+	
+	{
+		"name" : "Chalchihuitlicue",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Chalchihuitlicue, es la otra cara del dios de la guerra y el agua (Tláloc). Esta diosa se asocia con la fertilidad.",
+				"trigger" : "Chalchihuitlicue"
+			},
+			{
+				"time" : "07.100",
+				"subtitle" : "Y se representa con grandes orejeras, un poncho y una falda de jade con estampados geométricos. Su cuerpo se muestra robusto y calza unas sandalias.",
+				"trigger" : "PinChalchihuitlicue"
+			}
+		]
+	}]
+}

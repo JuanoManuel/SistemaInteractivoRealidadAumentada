@@ -1,0 +1,115 @@
+﻿{ "pack":[
+	{
+		"name" : "Intro",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "El nombre de calzada de los muertos proviene de los mexicas"
+			},
+			{
+				"time" : "04.130",
+				"subtitle" : "estos la llamaron ''miccaotli'' que significa ''camino de los muertos'' ",
+				"trigger" : "Nombre"
+			},
+			{
+				"time" : "09.080",
+				"subtitle" : "ya que pensaban que había tumbas a los lados de esta",
+				"trigger" : "Nombre"
+			}
+		]
+	},
+	{
+		"name" : "Medicion",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Tiene aproximadamente unos 40 metros de ancho",
+				"trigger" : "Measure-ancho"
+			},
+			{
+				"time" : "03.700",
+				"subtitle" : "y se estima una longitud superior de 4km donde su extremo norte",
+				"trigger" : "Measure-alto"
+			},
+			{
+				"time" : "08.000",
+				"subtitle" : "se encuentra en la Plaza de la Luna y su extremo sur que se prolonga"
+			},
+			{
+				"time" : "12.400",
+				"subtitle" : "hasta después de la Ciudadela"
+			},
+			{
+				"time" : "15.900",
+				"trigger" : "Measure-ancho"
+			},
+			{
+				"time" : "16.000",
+				"subtitle" : "Se cree que pudo haber sido usado para hacer procesiones",
+				"trigger" : "Measure-alto"
+			},
+			{
+				"time" : "19.700",
+				"subtitle" : "pues era la manera de llegar hasta la Pirámide de la Luna"
+			},
+			{
+				"time" : "23.200",
+				"subtitle" : "uno de los lugares más sagrados de la ciudad."
+			}
+		]
+	},
+	{
+		"name" : "Construccion",
+		"subtitles" : [
+			{
+				"time" : "00.300",
+				"subtitle" : "A lo largo de la Calzada se encuentran las construcciones más importantes de Teotihuacan"
+			},
+			{
+				"time" : "05.500",
+				"subtitle" : " entre ellas, las dos grandes pirámides: "
+			},
+			{
+				"time" : "08.900",
+				"subtitle" : "la pirámide del Sol",
+				"trigger" : "Piramide-sol"
+			},
+			{
+				"time" : "11.800",
+				"subtitle" : " y la pirámide de la Luna",
+				"trigger" : "Piramide-luna"
+			},
+			{
+				"time" : "15.700",
+				"subtitle" : "el Conjunto de Quetzalpapálotl",
+				"trigger" : "Quetzalpapalotl"
+			},
+			{
+				"time" : "18.100",
+				"subtitle" : "con su Palacio, el Patio de los Jaguares"
+			},
+			{
+				"time" : "21.700",
+				"subtitle" : "y la Subestructura de los Caracoles Emplumados"
+			}
+		]
+	},
+	{
+		"name" : "Outro",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Toca alguno de los carteles para más información "
+			},
+			{
+				"time" : "03.400",
+				"subtitle" : "y cuando estés listo puedes seguir con el recorrido "
+			},
+			{
+				"time" : "06.200",
+				"subtitle" : "tocando el cartel de ''Ir a la ciudadela''",
+				"trigger" : "Ciudadela"
+			}
+		]
+	}]
+}
