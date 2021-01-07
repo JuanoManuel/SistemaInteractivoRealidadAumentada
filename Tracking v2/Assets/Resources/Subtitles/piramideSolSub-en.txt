@@ -1,0 +1,72 @@
+{ "pack":[
+	{
+		"name" : "piramideSol",
+		"subtitles" : [
+			{
+				"time" : "00.100",
+				"subtitle" : "The pyramid of the sun is the largest construction in Teotihuacán",
+				"trigger" : "PiramideSol"
+			},
+			{
+				"time" : "03.80",
+				"subtitle" : "It measures 225 m on each side and reaches about 65 m in height.",
+				"trigger" : "Medidas"
+			},
+			{
+				"time" : "09.25",
+				"subtitle" : "It is located in the center of the Calzada de los Muertos.",
+				"trigger" : ""
+			},
+			{
+				"time" : "14.00",
+				"subtitle" : "Its construction began when Teotihuacán began to develop as one of the main cities in Mesoamerica.",
+				"trigger" : ""
+			},
+			{
+				"time" : "21.07",
+				"subtitle" : "The name Pyramid of the Sun arose because the Mexica called it tonatiuh itzacual, or enclosure of the Sun.",
+				"trigger" : ""
+			},
+			{
+				"time" : "30.30",
+				"subtitle" : "Due to this, it is commonly thought that it was dedicated to the cult of this star.",
+				"trigger" : ""
+			},
+			{
+				"time" : "36.13",
+				"subtitle" : "However, some authors maintain that it was actually dedicated to the god of rain.",
+				"trigger" : "Tlaloc"
+			},
+			{
+				"time" : "43.00",
+				"subtitle" : "During one of his explorations burials of sacrificed children were found, a practice associated with the cult of this god.",
+				"trigger" : ""
+			},
+			{
+				"time" : "51.50",
+				"subtitle" : "Although also, in 2013, in another exploration a sculpture of the fire god Huehuetéotl was found.",
+				"trigger" : "Huehuet"
+			},
+			{
+				"time" : "60.00",
+				"subtitle" : " ",
+				"trigger" : "Huehuet"
+			},
+			{
+				"time" : "60.50",
+				"subtitle" : " ",
+				"trigger" : "Tlaloc"
+			},
+			{
+				"time" : "61.0",
+				"subtitle" : " ",
+				"trigger" : "Medidas"
+			},
+			{
+				"time" : "61.5",
+				"subtitle" : " ",
+				"trigger" : "PinPiramideSol"
+			}		
+		]
+	}]
+}

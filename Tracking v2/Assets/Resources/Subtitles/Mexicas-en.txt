@@ -1,0 +1,125 @@
+{ "pack":[
+	{
+		"name" : "Asentamientos",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle" : "The Mexica Empire was one of the Mesoamerican civilizations around the 15th century, "
+			},
+			{
+				"time" : "05.200",
+				"subtitle" : "where it was an entity of territorial, political and economic control that existed in the"
+			},
+			{
+				"time" : "10.000",
+				"subtitle" : "central area of Mesoamerica, during the Late Postclassic, before the spanish"
+			},
+			{
+				"time" : "14.190",
+				"subtitle" : "conquest; whose extension included various entities of the current republic,"
+			},
+			{
+				"time" : "19.950",
+				"subtitle" : "these being the coastal states of the Pacific Ocean as: Guerrero and ",
+				"trigger" : "PinRojoGuerre"
+			},
+			{
+				"time" : "23.400",
+				"subtitle" : "Michoacán, The states that conform the center-south region of the country ",
+				"trigger" : "PinRojoMicho"
+			},
+			{
+				"time" : "27.800",
+				"subtitle" : "such as: Mexico City, ",
+				"trigger" : "PinRojoCDMEX"
+			},
+			{
+				"time" : "29.410",
+				"subtitle" : "the Mexico State and",
+				"trigger" : "PinRojoEdoMex"
+			},
+			{
+				"time" : "30.670",
+				"subtitle" : "Morelos, along with those entities from the east of Mexico, ",
+				"trigger" : "PinRojoMorelos"
+			},
+			{
+				"time" : "34.000",
+				"subtitle" : "like: Puebla, ",
+				"trigger" : "PinRojoPuebla"
+			},
+			{
+				"time" : "35.105",
+				"subtitle" : "Tlaxcala, ",
+				"trigger" : "PinRojoTlaxcala"
+			},
+			{
+				"time" : "36.000",
+				"subtitle" : "Hidalgo and the coastal state of the gulf of Mexico,",
+				"trigger" : "PinRojoHidal"
+			},
+			{
+				"time" : "39.240",
+				"subtitle" : "Veracruz.",
+				"trigger" : "PinRojoVeracr"
+			},
+			{
+				"time" : "46.730",
+				"subtitle" : "But their territorial expansion through diverse conquest campaigns, "
+			},
+			{
+				"time" : "50.950",
+				"subtitle" : "began after the foundation and subsequent expansion of the Triple Alliance,"
+			},
+			{
+				"time" : "55.750",
+				"subtitle" : "that officially was integrated by the Triple Alliance domains,"
+			},
+			{
+				"time" : "60.000",
+				"subtitle" : "formed by Texcoco, Tlacopan and Mexico-Tenochtitlan; with their expansion taking place"
+			},
+			{
+				"time" : "65.500",
+				"subtitle" : "once Azcapotzalco was defeated, by these three lordships in 1427."
+			},
+			{
+				"time" : "72.050",
+				"subtitle" : "From then on, the territories of the Mexica Empire were expanded until "
+			},
+			{
+				"time" : "77.070",
+				"subtitle" : "The empire became the center of one of the largest states"
+			},
+			{
+				"time" : "81.500",
+				"subtitle" : "that was known in mesoamerica, While the other partners in the alliance had assumed"
+			},
+			{
+				"time" : "86.180",
+				"subtitle" : "subsidiary roles. "
+			},
+			{
+				"time" : "90.000",
+				"subtitle" : "With the lands of the Alliance being effectively ruled from Tenochtitlan, ",
+				"trigger" : "PinRojoMexica"
+			},
+			{
+				"time" : "94.800",
+				"subtitle" : "which had been founded on an islet to the west of the system of lakes known as"
+			},
+			{
+				"time" : "99.270",
+				"subtitle" : "Texcoco lake, on the central and southern margins of this system made up of "
+			},
+			{
+				"time" : "104.380",
+				"subtitle" : "the lakes of Zumpango, Xaltocan, Chalco, Texcoco and Xochimilco towards the end of "
+			},
+			{
+				"time" : "110.450",
+				"subtitle" : "The early Postclassic, and where this islet is present-day Mexico City. "
+			}
+		]
+	}]
+}

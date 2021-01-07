@@ -1,0 +1,258 @@
+{ "pack":[
+	{
+		"name" : "IntroT",
+		"subtitles" : [
+			{
+				"time" : "00.220",
+				"subtitle" : "The history of Teotihuacan consists of various periods in the development",
+				"trigger" : "FaseI"
+			},
+			{
+				"time" : "04.080",
+				"subtitle" : "architectural structure of the city, where its history begins in the late Formative of the valley ",
+				"trigger" : "PinRojoFaseI"
+			},
+			{
+				"time" : "08.290",
+				"subtitle" : "of Teotihuacan, made up of the Cuanalán and Tezoyuca phases that include",
+				"trigger" : "PinRojoFaseII"
+			},
+			{
+				"time" : "14.060",
+				"subtitle" : "from 500 BC to 150 BC; It is in these two phases that the first ",
+				"trigger" : "AnimFaseIIPir"
+			},
+			{
+				"time" : "22.050",
+				"subtitle" : "villages in the valley, which took advantage of the surrounding conditions for the"
+			},
+			{
+				"time" : "26.300",
+				"subtitle" : "agriculture practice."
+			}
+		]
+	},
+	{
+		"name" : "Fase3y4",
+		"subtitles" : [
+			{
+				"time" : "00.250",
+				"subtitle" : "The third phase was Patlachique from 150 BC - 50 BC. where there was",
+				"trigger" : "PinRojoFaseIII"
+			},
+			{
+				"time" : "08.000",
+				"subtitle" : "approximately 5000 inhabitants in the region, it is at this stage when",
+				"trigger" : "PSolBase"
+			},
+			{
+				"time" : "12.200",
+				"subtitle" : "the urban nucleus of Teotihuacan, as well as the common ceremonial center, which began",
+				"trigger" : "AnimFaseIIIPobl"
+			},
+			{
+				"time" : "18.200",
+				"subtitle" : "of what would later become the Pyramids of the Sun and the Moon.",
+				"trigger" : "FaseIIIPirCom"
+			},
+			{
+				"time" : "23.200",
+				"subtitle" : "The stage that followed Patlachique is Tzacualli that spans from the 50s BC.",
+				"trigger" : "PinRojoFaseIV"
+			},	
+			{
+				"time" : "29.900",
+				"subtitle" : "to 100 AD, in it the city as we know it began to be traced, the",
+				"trigger" : "PirMenComp2"
+			},
+			{
+				"time" : "36.000",
+				"subtitle" : "ceremonial area to where the Quetzalcóatl temple would later be; ",
+				"trigger" : "ApareceHabi6"
+			},
+			{
+				"time" : "37.200",				
+				"trigger" : "Habit6"
+			},
+			{
+				"time" : "40.250",
+				"subtitle" : "In addition, it is the final stage of the construction of the pyramids of the Sun and the Moon.",
+				"trigger" : "PmenorMitad3"
+			}
+		]
+	},
+	{
+		"name" : "Fase5y6",
+		"subtitles" : [
+			{
+				"time" : "00.550",
+				"subtitle" : "From the year 100 A.D. and during the following 100 years the phase of",
+				"trigger" : "Pmenor6"
+			},
+			{
+				"time" : "05.220",
+				"subtitle" : "Miccaotli, where Teotihuacan continued to grow to its maximum extent territorial",
+				"trigger" : "PinRojoFaseV"
+			},
+			{
+				"time" : "09.290",
+				"subtitle" : "with a population estimated at 45 thousand inhabitants. Miccoatli is the stage",
+				"trigger" : "ApareceHabi3"
+			},
+			{
+				"time" : "10.350",
+				"trigger" : "Habit3"
+			},
+			{
+				"time" : "15.270",
+				"subtitle" : "where the construction of the Citadel and the Temple of Quetzalpapalotl begins; "
+			},
+			{
+				"time" : "20.050",
+				"subtitle" : "ending this phase in 200 AD. where what is known began"
+			},
+			{
+				"time" : "25.100",
+				"subtitle" : "such as the Tlamimilolpa phase, a stage where the most complex urban growth began ",
+				"trigger" : "EdFcalzada0"
+			},
+			{
+				"time" : "30.230",
+				"subtitle" : "with the existence of parallel and perpendicular streets to each other",
+				"trigger" : "PinRojoFaseVI"
+			},
+			{
+				"time" : "35.120",
+				"subtitle" : "building modules, the presence of multi-family homes, among others."
+			},
+			{
+				"time" : "41.900",
+				"subtitle" : "It is estimated that at this time Teotihuacan reached 65 thousand inhabitants,",
+				"trigger" : "ApareceHabi"
+			},
+			{
+				"time" : "42.500",
+				"trigger" : "Habit"
+			},
+			{
+				"time" : "47.900",
+				"subtitle" : "with Tlamimilolpa ending in 350 AD."
+			}
+		]
+	},
+	{
+		"name" : "Fase7y8",
+		"subtitles" : [
+			{
+				"time" : "00.100",
+				"subtitle" : "As the next and seventh stage is Xolalpan, which spanned the year 350 AD.",
+				"trigger" : "EdFcalzada3"
+			},
+			{
+				"time" : "6.150",
+				"subtitle" : "to 550 AD, where there was an internal remodeling of the urban",
+				"trigger" : "PinRojoFaseVII"
+			},
+			{
+				"time" : "12.085",
+				"subtitle" : "building areas to accommodate the burgeoning society, which is estimated to have reached 100,000",
+				"trigger" : "ApareceHabi1"
+			},
+			{
+				"time" : "13.200",
+				"trigger" : "Habit1"
+			},
+			{
+				"time" : "17.000",
+				"subtitle" : "population."
+			},
+			{
+				"time" : "19.020",
+				"subtitle" : "By 550 AD the Metepec phase begins, which lasts for 100 years",
+				"trigger" : "PinRojoFaseVIII"
+			},
+			{
+				"time" : "24.200",
+				"subtitle" : "phase where internal problems of concentrated overpopulation occurred"
+			},
+			{
+				"time" : "29.200",
+				"subtitle" : "in the City-State that could not grow without affecting the farmland,"
+			},
+			{
+				"time" : "34.000",
+				"trigger" : "Habit1"
+			},
+			{
+				"time" : "34.900",
+				"subtitle" : "Faced with these problems, there was a decrease in the population, reducing to 70 thousand inhabitants",
+				"trigger" : "ApareceHabi1"
+			},
+			{
+				"time" : "39.000",
+				"subtitle" : "throughout 550 AD to 650 AD"
+			}			
+		]
+	},
+	{
+		"name" : "Fase9y10",
+		"subtitles" : [
+			{
+				"time" : "00.300",
+				"subtitle" : "However, the year 650 AD also began the stage known as the ",
+				"trigger" : "PinRojoFaseIX"
+			},
+			{
+				"time" : "06.250",
+				"subtitle" : "phase of Coyotlatelco, where the population is drastically reduced to 5000 people and only ",
+				"trigger" : "Habit"
+			},
+			{
+				"time" : "06.550",
+				"trigger" : "Habit3"
+			},
+			{
+				"time" : "07.000",
+				"trigger" : "ApareceHabi"
+			},
+			{
+				"time" : "07.300",
+				"trigger" : "ApareceHabi3"
+			},
+			{
+				"time" : "13.000",
+				"subtitle" : "some parts of the city remained occupied."
+			},
+			{
+				"time" : "16.000",
+				"trigger" : "Habit6"
+			},
+			{
+				"time" : "16.850",
+				"trigger" : "ApareceHabi6"
+			},
+			{
+				"time" : "17.215",
+				"subtitle" : "With a Teotihuacan society in decline, this phase ends at some point between the years",
+				"trigger" : "PinRojoFaseX"
+			},
+			{
+				"time" : "21.900",
+				"subtitle" : "800 and 900 AD where the Mazapa phase began, a phase in which the population",
+				"trigger" : "AnimFaseIIIPobl"
+			},
+			{
+				"time" : "30.000",
+				"subtitle" : "was reduced to a remnant of Teotihuacanos living over the abandoned city."
+			},
+			{
+				"time" : "35.000",
+				"subtitle" : "By this time there is evidence that the city was burned and looted,"
+			},
+			{
+				"time" : "39.200",
+				"subtitle" : "with the consequent abandonment of it."
+			}
+		]
+	}]
+}

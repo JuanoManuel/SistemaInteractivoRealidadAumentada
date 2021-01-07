@@ -1,0 +1,122 @@
+{ "pack":[
+	{
+		"name" : "Introduccion",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "The teotihuacan gods shaped the spiritual base of the ancient mexican people.",
+				"trigger" : ""
+			},
+			{
+				"time" : "06.000",
+				"subtitle" : "Teotihuacan was one of the most fluorescent pre-columbian cities, so the deities of this zone had a very broad transcendence.",
+				"trigger" : ""
+			},
+			{
+				"time" : "15.150",
+				"subtitle" : "The teotihuacan religion is characterised to be polytheistic, that is, they worship more than one god, which each one represents natural elements such as fire, water or earth.",
+				"trigger" : ""
+			},
+			{
+				"time" : "28.200",
+				"subtitle" : "The main ones were: Tlaloc who represented rain or war and Quetzalcoatl who manifested wisdom. Another was Huehueteotl an old one revenered as fire symbol",
+				"trigger" : ""
+			}
+		]
+	},
+	{
+		"name" : "Araña",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "The great spider (''Gran araña'' in spanish), was revered as the god of darkness and underworld.",
+				"trigger" : "Araña"
+			},
+			{
+				"time" : "06.220",
+				"subtitle" : "She was represented with a headdress with the face of a green bird, similar to a owl or quetzal.",
+				"trigger" : "PinAraña"
+			}
+		]
+	},
+	{
+		"name" : "Huehueteotl",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Huehueteotl was the god of fire and was represented as a toothless, wrinkled, bearded and hunchback old man.",
+				"trigger" : "Huehueteotl"
+			},
+			{
+				"time" : "07.800",
+				"subtitle" : "The archaeological findings placed him as one of the most ancient gods",
+				"trigger" : ""
+			},
+			{
+				"time" : "12.300",
+				"subtitle" : "The representation of Huehueteotl was sculpted in stone.",
+				"trigger" : ""
+			},
+			{
+				"time" : "16.400",
+				"subtitle" : "Over his head is a rhombus figure and his hands rest on his legs, one clenched and the other one with the palm to the sky.",
+				"trigger" : "PinHuehueteotl"
+			},
+			{
+				"time" : "25.000",
+				"subtitle" : "",
+				"trigger" : "HuehueteotlPiedra"
+			}
+		]
+	},
+	{
+		"name" : "Xipetotec",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Xipetotec was the crops god (of corn and farming), of sickness and goldsmith.",
+				"trigger" : "Xipetotec"
+			},
+			{
+				"time" : "09.600",
+				"subtitle" : "He was considered influential in every aspect linked with life, death and resurrection.",
+				"trigger" : "PinXipetotec"
+			}
+		]
+	},
+	{
+		"name" : "Tlaloc",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Tlaloc was considered one of the fearest and idolizest god by the mesoamerican people.",
+				"trigger" : "Tlaloc"
+			},
+			{
+				"time" : "07.050",
+				"subtitle" : "He was the god of rain, on which depended the water cycles to grow the crops of these people, who were totally farmers.",
+				"trigger" : ""
+			},
+			{
+				"time" : "17.400",
+				"subtitle" : "Tlaloc is represented with blinders and like a forked tongue of a snake, He also has snails and shells, which represents his fertile character.",
+				"trigger" : "PinTlaloc"
+			}
+		]
+	},
+	{
+		"name" : "Chalchihuitlicue",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Chalchiuhtlicue is the other face of the god of war and water (Tlaloc). This god was associated with fertility.",
+				"trigger" : "Chalchihuitlicue"
+			},
+			{
+				"time" : "07.100",
+				"subtitle" : "And was represented with big ear muffs, a poncho and a jade skirt with geometric stamps. Her body shows robust and wears flip flops.",
+				"trigger" : "PinChalchihuitlicue"
+			}
+		]
+	}]
+}

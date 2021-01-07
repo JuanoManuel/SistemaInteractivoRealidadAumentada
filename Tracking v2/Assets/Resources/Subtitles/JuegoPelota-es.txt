@@ -1,0 +1,227 @@
+{ "pack": [
+	{
+		"name" : "Intro",
+		"subtitles" : [
+			{
+				"time" : "01.800",
+				"subtitle" : "Aunque el juego de pelota"
+			},
+			{
+				"time" : "03.100",
+				"subtitle" : "se tiene identificado en civilizaciones antiguas"
+			},
+			{
+				"time" : "05.560",
+				"subtitle" : "como los Olmecas"
+			},
+			{
+				"time" : "06.970",
+				"subtitle" : "y también en los Mayas"
+			},
+			{
+				"time" : "08.700",
+				"subtitle" : "los teotihuacanos era asiduos practicantes de este deporte"
+			},
+			{
+				"time" : "12.254",
+				"subtitle" : "también llamado Tlachtli",
+				"trigger" : "Nombre"
+			},
+			{
+				"time" : "14.200",
+				"trigger" : "Nombre"
+			},
+			{
+				"time" : "14.256",
+				"subtitle" : "El objetivo era meter una pelota de caucho",
+				"trigger" : "Pelota"
+			},
+			{
+				"time" : "17.000",
+				"subtitle" : "con un peso alrededor de 3 kilos"
+			},
+			{
+				"time" : "19.000",
+				"trigger" : "Pelota"
+			},
+			{
+				"time" : "19.130",
+				"subtitle" : " a través de un aro montado en un muro.",
+				"trigger" : "Aro"
+			},
+			{
+				"time" : "24.000",
+				"trigger" : "Aro"
+			}
+		]
+	},
+	{
+		"name" : "Partido",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "El partido era supervisado por un juez."
+			},
+			{
+				"time" : "03.440",
+				"subtitle" : "Se jugaba en canchas que medían en promedio unos"
+			},
+			{
+				"time" : "06.502",
+				"subtitle" : " 9 m de ancho por aproximadamente 15 m de largo.",
+				"trigger" : "Ancho"
+			},
+			{
+				"time" : "08.200",
+				"trigger" : "Largo"
+			},
+			
+			{
+				"time" : "11.500",
+				"trigger" : "Largo"
+			},
+			{
+				"time" : "11.501",
+				"trigger" : "Ancho"
+			}
+		]
+	},
+	{
+	 "name" : "Reglas",
+	 "subtitles" : [
+			{
+				"time" : "00.001",
+				"subtitle" : "Se dice que se jugaba entre dos equipos"
+			},
+			{
+				"time" : "02.000",
+				"trigger" : "Equipo-Rojo"
+			},
+			{
+				"time" : "02.100",
+				"trigger" : "Equipo-Azul"
+			},
+			{
+				"time" : "02.750",
+				"subtitle" : "de 1 a 7 jugadores cada uno"
+			},
+			{
+				"time" : "05.600",
+				"trigger" : "Equipo-Rojo"
+			},
+			{
+				"time" : "05.601",
+				"trigger" : "Equipo-Azul"
+			},
+			{
+				"time" : "05.620",
+				"subtitle" : "se lanzaban pases con la pelota sin tocarla",
+				"trigger" : "JugadorExplicacion"
+			},
+			{
+				"time" : "08.514",
+				"subtitle" : "con las manos, pies o cabeza",
+				"trigger" : "mano-arrow"
+			},
+			{
+				"time" : "09.450",
+				"trigger" : "pie-arrow"
+			},
+			{
+				"time" : "09.800",
+				"trigger" : "cabeza-arrow"
+			},
+			{
+				"time" : "10.997",
+				"trigger" : "mano-arrow"
+			},
+			{
+				"time" : "10.998",
+				"trigger" : "pie-arrow"
+			},
+			{
+				"time" : "10.999",
+				"trigger" : "cabeza-arrow"
+			},
+			{
+				"time" : "11.000",
+				"subtitle" : "solo la podían tocar con el hombro, espalda o cadera."
+			},
+			{
+				"time" : "12.300",
+				"trigger" : "hombro-arrow"
+			},
+			{
+				"time" : "12.780",
+				"trigger" : "espalda-arrow"
+			},
+			{
+				"time" : "13.630",
+				"trigger" : "cadera-arrow"
+			},
+			{
+				"time" : "15.998",
+				"trigger" : "hombro-arrow"
+			},
+			{
+				"time" : "15.999",
+				"trigger" : "espalda-arrow"
+			},
+			{
+				"time" : "16.000",
+				"trigger" : "cadera-arrow"
+			}
+		]
+	},
+	{
+		"name" : "Protecciones",
+		"subtitles" : [
+			{
+				"time" : "00.200",
+				"subtitle" : "Los jugadores se protegían de los golpes"
+			},
+			{
+				"time" : "02.000",
+				"subtitle" : "a la pelota con fajas de tela y además"
+			},
+			{
+				"time" : "05.640",
+				"subtitle" : "se tienen registros de que en el juego de pelota propio de Teotihuacán"
+			},
+			{
+				"time" : "09.600",
+				"subtitle" : "se usaban también bastones y guantes.",
+				"trigger" : "JugadorExplicacion"
+			}
+		]
+	},
+	{
+		"name" : "Outro",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Se sospecha que los vencidos o victoriosos"
+			},
+			{
+				"time" : "03.200",
+				"subtitle" : "dependiendo de las reglas"
+			},
+			{
+				"time" : "04.888",
+				"subtitle" : "o el sistema de valores de cada sociedad"
+			},
+			{
+				"time" : "07.770",
+				"subtitle" : "eran sacrificados a los dioses"
+			},
+			{
+				"time" : "10.222",
+				"subtitle" : "pero esto es también algo"
+			},
+			{
+				"time" : "12.130",
+				"subtitle" : "que no puede ser totalmente tomado como cierto."
+			}
+		]
+	}]
+}

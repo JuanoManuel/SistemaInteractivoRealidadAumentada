@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ActivateNext">
+    <Position X="17.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAACAAAAAAIAAAAAAACAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Teotihuacan\JuegoPelota\Scripts\ActivateNext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeDificulty">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ChangeDificulty.Modes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Actividad\Scripts\ChangeDificulty.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BIAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Actividad\Scripts\ChangeDificulty.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="menuBehavour" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChangeLevel">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAEA=</HashCode>
+      <FileName>Assets\Actividad\Scripts\ChangeLevel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="menuBehavour" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesablePanelGanador">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Actividad\Scripts\DesablePanelGanador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DragAndDrop">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAACAAAEgEEAAAAAASIAAAAAAAABQAIAAgAEACAEA=</HashCode>
+      <FileName>Assets\Actividad\Scripts\DragAndDrop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sensores" />
+      <Field Name="ui" />
+      <Field Name="puzzle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MenuBehavour">
+    <Position X="3.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACBAgAAABAgAAQAQBkAACAAABAQAAEAQAAQEA=</HashCode>
+      <FileName>Assets\Actividad\Scripts\MenuBehavour.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="puzzle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Puzzle">
+    <Position X="6.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EQEQEAABABQAGAGBAAEIQgAAEAAoAAgAAACAAAAAgEA=</HashCode>
+      <FileName>Assets\Actividad\Scripts\Puzzle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ui" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sensores">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAACAAgACAAACAAAgAAAAIAAIAAAAAAAAAgCAgAA=</HashCode>
+      <FileName>Assets\Actividad\Scripts\Sensores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIARAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Actividad\Scripts\UI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimateObjects" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAASAAAEAAAEA=</HashCode>
+      <FileName>Assets\Mexicas\Chinampa\Scripts\AnimateObjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterScript" Collapsed="true">
+    <Position X="16.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Mexicas\Chinampa\Scripts\WaterScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimateLeftRight" Collapsed="true">
+    <Position X="19" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAgQCAAAAAAEA=</HashCode>
+      <FileName>Assets\Mexicas\Organizacion Social\Scripts\AnimateLeftRight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActivarColliderPiedra" Collapsed="true">
+    <Position X="20.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Mexicas\PiedraSol\ActivarColliderPiedra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesplayAros" Collapsed="true">
+    <Position X="22.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAiHQGAAAAAAgAAABAAAAAAAAAAAIQAAQAAAAEA=</HashCode>
+      <FileName>Assets\Mexicas\PiedraSol\DesplayAros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ayuda" Collapsed="true">
+    <Position X="24.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAAAAIAAAAAAQAEAAAAEAEAACAA=</HashCode>
+      <FileName>Assets\PantallaInicio\Scripts\Ayuda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeScene" Collapsed="true">
+    <Position X="28" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAAAAAAAAAAABAAAQAAAAAAACAAAQAAQAAAAAA=</HashCode>
+      <FileName>Assets\PantallaInicio\Scripts\ChangeScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Configuracion" Collapsed="true">
+    <Position X="30.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAABAIAgAAAAAAAAAQAAAQEAQgASAEBACkA=</HashCode>
+      <FileName>Assets\PantallaInicio\Scripts\Configuracion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdiomaAdmin" Collapsed="true">
+    <Position X="32.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\PantallaInicio\Scripts\IdiomaAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InicioConf" Collapsed="true">
+    <Position X="34.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAIAAAAAAAAAAAAAAAAEAAAAAAEBAAEA=</HashCode>
+      <FileName>Assets\PantallaInicio\Scripts\InicioConf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartTour" Collapsed="true">
+    <Position X="37" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAAACgAAAEAAoAAAAEABAAAAKABAAAAAgAAAEA=</HashCode>
+      <FileName>Assets\PantallaInicio\Scripts\StartTour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowSecuencedItems" Collapsed="true">
+    <Position X="39.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACCAAAAAIAgAAAAAAAAAAAQAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Teotihuacan\Calzada\Scripts\ShowSecuencedItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchBetweenModels" Collapsed="true">
+    <Position X="41.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Teotihuacan\Calzada\Scripts\SwitchBetweenModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextController" Collapsed="true">
+    <Position X="43.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAggAAIGAABAAAAAABAAAACAAAAAAJAAAAAgBAAEA=</HashCode>
+      <FileName>Assets\Teotihuacan\Calzada\Scripts\TextController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToggleInteractives" Collapsed="true">
+    <Position X="46" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEA=</HashCode>
+      <FileName>Assets\Teotihuacan\Calzada\Scripts\ToggleInteractives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimateNext2" Collapsed="true">
+    <Position X="48.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAgQAAAAAAAEA=</HashCode>
+      <FileName>Assets\Teotihuacan\Fases Interaccion\Scripts\AnimateNext2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="characterAnimationController" Collapsed="true">
+    <Position X="50.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACQAAQAgAAAAABAAAAEAAAAAAQAAAAAAAEA=</HashCode>
+      <FileName>Assets\Teotihuacan\JuegoPelota\Scripts\characterAnimationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jugador3Controller" Collapsed="true">
+    <Position X="52.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAACCAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Teotihuacan\JuegoPelota\Scripts\Jugador3Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActivitiesManager" Collapsed="true">
+    <Position X="60.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAEAAAAAAAoAAAAAAIAAAAAAAgAAEEA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\ActivitiesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimateNext" Collapsed="true">
+    <Position X="62.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAgQAAAAAAAEA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\AnimateNext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasManager" Collapsed="true">
+    <Position X="61.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgkCIAAAQCBBAEKAAAAG3BACAAAAAQAACAMAEAAICEg=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\CanvasManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomScreen" Collapsed="true">
+    <Position X="63.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\CustomScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FPSDisplay" Collapsed="true">
+    <Position X="65.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\FPSDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightEstimation" Collapsed="true">
+    <Position X="76.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAgAAAAACCAA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\LightEstimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookAtCamera" Collapsed="true">
+    <Position X="78.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAEAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAEA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\LookAtCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaManager" Collapsed="true">
+    <Position X="80.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAICAEAEAAAAAAAAAAAAAAIAAEAAAAEAAAAAAAEg=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\MediaManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesplayMoreInformation" Collapsed="true">
+    <Position X="16.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBgAAAAEAAAAAgAAAABAABAAAAAAAAIQAAQAAAAEA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\PinRojo\DesplayMoreInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PinManager" Collapsed="true">
+    <Position X="85.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAGAAAAAgAAAgEAAAAAAABCAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\PinRojo\PinManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollViewButton" Collapsed="true">
+    <Position X="87.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIBAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\ScrollViewButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartButtonBehavour" Collapsed="true">
+    <Position X="89.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\StartButtonBehavour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SyncExplication" Collapsed="true">
+    <Position X="92" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQBAAABACACAACwAAAABEAIAQAIEAIAAECAAhAACEA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\SyncExplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TapToPlace" Collapsed="true">
+    <Position X="94.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAgIAAACBCAAAAAAAAAAAAAAQIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\TapToPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToggleCanvas" Collapsed="true">
+    <Position X="96.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Tracking Scene\Scripts\ToggleCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

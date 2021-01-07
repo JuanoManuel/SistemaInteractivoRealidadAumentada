@@ -1,0 +1,435 @@
+﻿{ "pack":[
+	{
+		"name" : "Intro",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle" : "To administrate the vast empire"
+			},
+			{
+				"time" : "02.600",
+				"subtitle" : "The mexicas implemented a rigid system based in"
+			},
+			{
+				"time" : "05.700",
+				"subtitle" : "the personal power of the nobility."
+			},
+			{
+				"time" : "08.800",
+				"subtitle" : "The pillis or nobles formed the privileged group.",
+				"trigger" : "titulo-sociedad"
+			},
+			{
+				"time" : "12.500",
+				"subtitle" : "They were priests, warriors and government officials."
+			},
+			{
+				"time" : "16.800",
+				"subtitle" : "They owned most of the lands"
+			},
+			{
+				"time" : "19.200",
+				"subtitle" : "they didn't pay any kind of tribute"
+			},
+			{
+				"time" : "21.500",
+				"subtitle" : "and managed the state."
+			}
+		]
+	},
+	{
+		"name" : "HueyTlatoani",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle" : "At the head of the government structure",
+				"trigger" : "huey-tlatoani"
+			},
+			{
+				"time" : "02.400",
+				"subtitle" : "was the sovereign or 'Huey Tlatoani' (great speaker and boss of the men)"
+			},
+			{
+				"time" : "08.600",
+				"subtitle" : "with large military, civil and religious powers."
+			}
+		]
+	},
+	{
+		"name" : "Tlatocan",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Escalon1"
+			},
+			{
+				"time" : "00.700",
+				"subtitle" : "From the huey tlatoani"
+			},
+			{
+				"time" : "01.800",
+				"subtitle" : "presided the supreme council or 'tlatocan'",
+				"trigger" : "Tlatocan"
+			},
+			{
+				"time" : "04.900",
+				"subtitle" : "where the bosses or tlatoani of the most important cities participated"
+			},
+			{
+				"time" : "09.600",
+				"subtitle" : "The highest military authorities"
+			},
+			{
+				"time" : "11.300",
+				"subtitle" : "and the delegates from some 'calpullis'"
+			},
+			{
+				"time" : "13.800",
+				"subtitle" : "that's how were called the districts of Tenochtitlan."
+			},
+			{
+				"time" : "17.900",
+				"subtitle" : "The supreme council made the political,"
+			},
+			{
+				"time" : "20.200",
+				"subtitle" :  "military and administrative decisions"
+			},
+			{
+				"time" : "23.100",
+				"subtitle" : "Also, it designated the new huey tlatoani when the sovereign's death occured."
+			}
+		]
+	},
+	{
+		"name" : "Tlatoani",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Escalon2"
+			},
+			{
+				"time" : "00.400",
+				"subtitle" : "One level down is found the Tlatoani",
+				"trigger" : "tlatoaniRight"
+			},
+			{
+				"time" : "01.400",
+				"trigger" : "tlatoaniLeft"
+			},
+			{
+				"time" : "02.400",
+				"trigger" : "tlatoani"
+			},
+			{
+				"time" : "03.500",
+				"subtitle" : "there was one for each main city,"
+			},
+			{
+				"time" : "06.000",
+				"subtitle" : "with military power,"
+			},
+			{
+				"time" : "07.200",
+				"subtitle" : "civil and religious."
+			},
+			{
+				"time" : "09.200",
+				"subtitle" : "A tlatoani could be linked to another more important,"
+			},
+			{
+				"time" : "12.600",
+				"subtitle" : "like the Huey Tlatoni."
+			}
+		]
+	},
+	{
+		"name" : "Tecuhtli",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Escalon3"
+			},
+			{
+				"time" : "00.400",
+				"subtitle" : "Tecuhtli (Lord)",
+				"trigger" : "tecuhtli"
+			},
+			{
+				"time" : "02.400",
+				"subtitle" : "This title was given as reward to outstanding actions and was endowed with lands and servants."
+			},
+			{
+				"time" : "09.700",
+				"subtitle" : "Many Tecuhtli practiced administrative charges or were judges."
+			},
+			{
+				"time" : "13.800",
+				"subtitle" : "They had the mission to manage their domains"
+			},
+			{
+				"time" : "16.300",
+				"subtitle" : "and the people who resided on them."
+			},
+			{
+				"time" : "19.100",
+				"subtitle" : "He served his Tlatoani when he needed him"
+			}
+		]
+	},
+	{
+		"name" : "Pilli",
+		"subtitles" : [
+			{
+				"time" : "00.300",
+				"subtitle" : "Pilli (Tecuhtli son).",
+				"trigger" : "pilli"
+			},
+			{
+				"time" : "02.800",
+				"subtitle" : "They had lands inside their Tecuhtli's properties"
+			},
+			{
+				"time" : "06.600",
+				"subtitle" : "They had a role as administrators of justice and tax collectors."
+			},
+			{
+				"time" : "11.800",
+				"subtitle" : "Could be pilli anyone who was born into a noble family."
+			}
+		]
+	},
+	{
+		"name" : "Aguila",
+		"subtitles" : [
+			{
+				"time" : "00.800",
+				"subtitle" : "Noble eagle",
+				"trigger" : "noble-aguila"
+			},
+			{
+				"time" : "02.600",
+				"subtitle" : "The noble eagle or eagle warrior as is known in some occasions,"
+			},
+			{
+				"time" : "07.300",
+				"subtitle" : "they were an elite infantry corps and was part of the Mexica empire army."
+			},
+			{
+				"time" : "12.700",
+				"subtitle" : "The members of this warrior society"
+			},
+			{
+				"time" : "15.000",
+				"subtitle" : "were part of the nobility or individuals of the common people"
+			},
+			{
+				"time" : "18.700",
+				"subtitle" : "who had highlighted for their performance on the battlefield."
+			}
+		]
+	},
+	{
+		"name" : "Macehuales",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Escalon5"
+			},
+			{
+				"time" : "00.600",
+				"subtitle" : "Outside the nobility, were located the macehuales or common workers",
+				"trigger" : "macehuales"
+			},
+			{
+				"time" : "05.500",
+				"subtitle" : "they constituted the majority of the population and formed the group of the underprivileged."
+			},
+			{
+				"time" : "11.300",
+				"subtitle" : "Were farmers, merchants and craftsmen of the cities."
+			},
+			{
+				"time" : "15.600",
+				"subtitle" : "They had to offer tributes to the State in food and work."
+			}
+		]
+	},
+	{
+		"name" : "Tlacotli",
+		"subtitles" : [
+			{
+				"time" : "00.400",
+				"subtitle" : "Lastly,",
+				"trigger" : "tlacotli"
+			},
+			{
+				"time" : "01.500",
+				"subtitle" : "in Mexican society there were the tlacotli,"
+			},
+			{
+				"time" : "04.800",
+				"subtitle" : "who were mostly prisoners of war,"
+			},
+			{
+				"time" : "07.700",
+				"subtitle" : "or people who, because they have contracted debts or have committed a crime,"
+			},
+			{
+				"time" : "11.700",
+				"subtitle" : "they worked for a master without receiving any kind of payment."
+			}
+		]
+	},
+	{
+		"name" : "Estado",
+		"subtitles" : [
+		{
+				"time" : "00.000",
+				"trigger" : "Jerarquia"
+			},
+			{
+				"time" : "01.000",
+				"subtitle" : "The State"
+			},
+			{
+				"time" : "02.500",
+				"subtitle" : "The laws of the state were very severe"
+			},
+			{
+				"time" : "05.100",
+				"subtitle" : "and the punishments varied by crime and offender."
+			},
+			{
+				"time" : "08.900",
+				"subtitle" : "The death penalty existed for crimes of"
+			},
+			{
+				"time" : "12.400",
+				"subtitle" : "murder",
+				"trigger" : "Asesinato"
+			},
+			{
+				"time" : "13.600",
+				"trigger" : "Asesinato"
+			},
+			{
+				"time" : "13.700",
+				"subtitle" : "treason",
+				"trigger" : "Traicion"
+			},
+			{
+				"time" : "15.100",
+				"trigger" : "Traicion"
+			},
+			{
+				"time" : "15.200",
+				"subtitle" : "abortion",
+				"trigger" : "Aborto"
+			},
+			{
+				"time" : "16.700",
+				"trigger" : "Aborto"
+			},
+			{
+				"time" : "16.800",
+				"subtitle" : "incest",
+				"trigger" : "Incesto"
+			},
+			{
+				"time" : "18.600",
+				"trigger" : "Incesto"
+			},
+			{
+				"time" : "18.700",
+				"subtitle" : "violation",
+				"trigger" : "Violacion"
+			},
+			{
+				"time" : "20.100",
+				"trigger" : "Violacion"
+			},
+			{
+				"time" : "20.200",
+				"subtitle" : "and adultery.",
+				"trigger" : "Adulterio"
+			},
+			{
+				"time" : "21.800",
+				"subtitle" : "In this latter case, the stoning was carried out,",
+				"trigger" : "pedradas"
+			},
+			{
+				"time" : "26.000",
+				"trigger" : "pedradas"
+			},
+			{
+				"time" : "26.100",
+				"subtitle" : "although the woman was previously strangled.",
+				"trigger" : "estrangular"
+			},
+			{
+				"time" : "29.800",
+				"trigger" : "estrangular"
+			},
+			{
+				"time" : "29.900",
+				"subtitle" : "Warriors could escape the death penalty by accepting a permanent border zone assignment.",
+				"trigger" : "Adulterio"
+			}
+		]
+	},
+	{
+		"name" : "Regiones",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"trigger" : "Tributos"
+			},
+			{
+				"time" : "00.400",
+				"subtitle" : "Some regions of the Mexica empire",
+				"trigger" : "PinTenochtitlan"
+			},
+			{
+				"time" : "02.400",
+				"subtitle" : "were governed directly by officials appointed in Tenochtitlan",
+				"trigger" : "PiramideNueva"
+			},
+			{
+				"time" : "03.400",
+				"trigger" : "tlatoani-mapa"
+			},
+			{
+				"time" : "07.200",
+				"subtitle" : "In others, Lords"
+			},
+			{
+				"time" : "08.400",
+				"subtitle" : "who had agreed to pay tribute to the mexicas,",
+				"trigger" : "Piramide"
+			},
+			{
+				"time" : "12.000",
+				"subtitle" : "the administration was run by the local nobility,"
+			},
+			{
+				"time" : "15.800",
+				"subtitle" : "which was accountable to the rulers of the imperial capital."
+			},
+			{
+				"time" : "19.900",
+				"subtitle" : "The Mendocino Codex and the tax registration,",
+				"trigger" : "codice-mendoza"
+			},
+			{
+				"time" : "21.000",
+				"trigger" : "matricula-tributaria"
+			},
+			{
+				"time" : "23.600",
+				"subtitle" : "give an account of the tributes that different peoples paid to the mexicas."
+			}
+		]
+	}]
+}
