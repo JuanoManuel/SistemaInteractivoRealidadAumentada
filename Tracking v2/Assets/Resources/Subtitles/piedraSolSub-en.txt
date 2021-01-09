@@ -1,0 +1,212 @@
+{ "pack":[
+	{
+		"name" : "Introduccion",
+		"subtitles" : [
+			{
+				"time" : "00.800",
+				"subtitle" : "The ''Piedra del Sol'' (Stone of the sun) is a basalt rock monolith 3.6 meters in diameter and 24.5 tons in weight, it is currently in the Museum of Anthropology and History of Mexico.",
+				"trigger" : "PiedraDelSol"
+			},
+			{
+				"time" : "014.880",
+				"subtitle" : "Erroneously called the Aztec calendar, the stone of the Sun was found in 1970 on the south side of the Plaza Mayor in Mexico City.",
+				"trigger" : ""
+			},
+			{
+				"time" : "025.640",
+				"subtitle" : "It is estimated that it was built by the mexicas between 1250 and 1521 AD, just before the process of European conquest and colonization..",
+				"trigger" : ""
+			},
+			{
+				"time" : "38.570",
+				"subtitle" : "To date, there are endless opinions about the true meaning of this stone and there is nothing concrete about it.",
+				"trigger" : ""
+			},
+			{
+				"time" : "048.210",
+				"subtitle" : "Some interpretations of each of the circles that make up the stone of the sun will be described below.",
+				"trigger" : ""
+			},
+			{
+				"time" : "055.410",
+				"subtitle" : "The mexicas divided time into suns or ages. Each era was presided over by a deity. Each of these eras or suns had a beginning and an end, which was precipitated by catastrophes..",
+				"trigger" : ""
+			},
+			{
+				"time" : "070.220",
+				"subtitle" : "",
+				"trigger" : "PiedraDelSol"
+			}
+		]
+	},
+	{
+		"name" : "circulo1",
+		"subtitles" : [
+			{
+				"time" : "00.210",
+				"subtitle" : "In the first circle we can see the symbol of the Fifth Sun, called Tonatiuh, which represents the current era. From him ",
+				"trigger" : "Aro1"
+			},
+			{
+				"time" : "09.660",
+				"subtitle" : "two eagle claws emerged. He also has a knife instead of a tongue, since Tonatiuh feeds on blood to continue existing.",
+				"trigger" : ""
+			},
+			{
+				"time" : "16.800",
+				"subtitle" : "",
+				"trigger" : "Aro1"
+			}
+		]
+	},
+	{
+		"name" : "circulo2",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle" : "The second circle contains the four suns or eras preceding the Fifth Sun and they are read from left to right.",
+				"trigger" : "Aro2"
+			},
+			{
+				"time" : "08.100",
+				"subtitle" : "In the first place we have the Sun Wind (Nahui ehécatl) whose era lasted 364 years.",
+				"trigger" : ""
+			},
+			{
+				"time" : "015.700",
+				"subtitle" : "Later, the second Sun Rain of Fire (nahui quiáhuitl): it was an era of 312 years.",
+				"trigger" : ""
+			},
+			{
+				"time" : "024.000",
+				"subtitle" : "Third, Sun Water (nahui atl): an era of 676 years.",
+				"trigger" : ""
+			},
+			{
+				"time" : "031.700",
+				"subtitle" : "Finally the fourth Sun Jaguar (nahui océlotl): whose age was 676 years.",
+				"trigger" : ""
+			},
+			{
+				"time" : "040.000",
+				"subtitle" : "",
+				"trigger" : "Aro2"
+			}
+		]
+	},
+	{
+		"name" : "circulo3",
+		"subtitles" : [
+			{
+				"time" : "0.200",
+				"subtitle" : "Third Circle.",
+				"trigger" : "Aro3"
+			},
+			{
+				"time" : "01.810",
+				"subtitle" : "The four suns or eras are surrounded by a circle containing 20 symbols that correspond to the 20 days of the Aztec month.",
+				"trigger" : ""
+			},
+			{
+				"time" : "011.900",
+				"subtitle" : "Each day of the month had a name associated with an element of nature.",
+				"trigger" : ""
+			},
+			{
+				"time" : "018.500",
+				"subtitle" : "",
+				"trigger" : "Aro3"
+			}
+		]
+	},
+	{
+		"name" : "circulo4",
+		"subtitles" : [
+			{
+				"time" : "0.200",
+				"subtitle" : "Fourth Circle.",
+				"trigger" : "Aro4"
+			},
+			{
+				"time" : "02.000",
+				"subtitle" : "It is formed by the 8 rays of the Sun and shows the relationship between the Sun and Venus.",
+				"trigger" : ""
+			},
+			{
+				"time" : "07.670",
+				"subtitle" : "In addition, this ring is composed of 40 squares with quincunxes in each of them.",
+				"trigger" : ""
+			},
+			{
+				"time" : "014.600",
+				"subtitle" : "",
+				"trigger" : "Aro4"
+			}
+		]
+	},
+	{
+		"name" : "circulo567",
+		"subtitles" : [
+			{
+				"time" : "01.000",
+				"subtitle" : "Circles 5, 6, 7 are closely linked, although there are many interpretations, it is said to constitute the unit Mars-Jupiter-Saturn.",
+				"trigger" : "Aro567"
+			},
+			{
+				"time" : "012.310",
+				"subtitle" : "The fifth circle represents the planet Mars, the sixth corresponds to the planet Jupiter and the seventh circle represents the Circle of Saturn.",
+				"trigger" : ""
+			},
+			{
+				"time" : "022.520",
+				"subtitle" : "This strip of the seventh circle is composed of 28 small arches that form the vertebrae of the serpent.",
+				"trigger" : ""
+			},
+			{
+				"time" : "031.380",
+				"subtitle" : "Saturn and Mars form two successive stripes that link the days and the Milky Way, they establish the relationship between the planetary world and the stellar world. ",
+				"trigger" : ""
+			},
+			{
+				"time" : "042.780",
+				"subtitle" : "The solar arrows gather the 4 outer circles and the 4 inner circles and touch with their tips the eighth strip, that of the Milky Way.",
+				"trigger" : ""
+			},
+			{
+				"time" : "054.400",
+				"subtitle" : "",
+				"trigger" : "Aro567"
+			}
+		]
+	},
+	{
+		"name" : "circulo8",
+		"subtitles" : [
+			{
+				"time" : "00.400",
+				"subtitle" : "Eighth Circle.",
+				"trigger" : "Aro8"
+			},
+			{
+				"time" : "02.500",
+				"subtitle" : "This last ring has two fire serpents facing each other and surrounding the entire monolith with their tails to close the stone.",
+				"trigger" : ""
+			},
+			{
+				"time" : "011.300",
+				"subtitle" : "It is believed that they are the representation of dual concepts such as day and night, east and west, sky and earth, etc.",
+				"trigger" : ""
+			},
+			{
+				"time" : "021.000",
+				"subtitle" : "",
+				"trigger" : "Aro8"
+			},
+			{
+				"time" : "22.000",
+				"subtitle" : "",
+				"trigger" : "PiedraDelSol"
+			}
+		]
+	}]
+}

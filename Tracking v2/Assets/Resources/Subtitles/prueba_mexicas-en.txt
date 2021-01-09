@@ -1,0 +1,137 @@
+{ "pack":[
+	{
+		"name" : "Introduccion",
+		"subtitles" : [
+			{
+				"time" : "00.300",
+				"subtitle" : "The complex pantheon of central Mexico isn't a sudden or spontaneous creation but the product of long centuries of tradition.",
+				"trigger" : ""
+			},
+			{
+				"time" : "09.500",
+				"subtitle" : "Big part of the gods we'll talk about, of their rites and the majority of their myths are common in whole mesoamerica and they go back at the classic period.",
+				"trigger" : ""
+			}
+		]
+	},
+	{
+		"name" : "Coatlicue",
+		"subtitles" : [
+			{
+				"time" : "00.200",
+				"subtitle" : "Coatlicue, whose name means snakes skirt, she was the fertility god, saint of the life and death, was represented as a woman using a skirt of snakes and a necklace with tear off hearts from the victims.",
+				"trigger" : "Coatlicue"
+			},
+			{
+				"time" : "15.550",
+				"subtitle" : "She had sharp claws on her hands and feet. Coatlicue was a god thirsty of human sacrifices.",
+				"trigger" : ""
+			},
+			{
+				"time" : "22.200",
+				"subtitle" : "Her husband was Mixcoatl, the clouds snake and god of the pursuit.",
+				"trigger" : ""
+			},
+			{
+				"time" : "28.000",
+				"subtitle" : "She also received the name Tonantzin, our revered mother and Teteoinan, mother of all the gods.",
+				"trigger" : "PinCoatlicue"
+			}
+		]
+	},
+	{
+		"name" : "Tonatiuh",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Tonatiuh or Tonatiuhteotl is the god of the sun inside the mexicas. The mexica people considered him as the sky leader.",
+				"trigger" : "Tonatiuh"
+			},
+			{
+				"time" : "08.200",
+				"subtitle" : "Also known as the fifth sun, due the mexicas believed he took control when the fourth sun was expelled of the sky.",
+				"trigger" : ""
+			},
+			{
+				"time" : "16.000",
+				"subtitle" : "According to their cosmogony, each sun was a god with its own cosmic age and according the mexicas, they were located in the age of the Tonatiuh's reign.",
+				"trigger" : "PinTonatiuh"
+			}
+		]
+	},
+	{
+		"name" : "Quetzalcoatl",
+		"subtitles" : [
+			{
+				"time" : "00.100",
+				"subtitle" : "Quetzalcoatl, also known as the feathered snake is the main god and represents the duality of the man.",
+				"trigger" : "Quetzalcoatl"
+			},
+			{
+				"time" : "07.650",
+				"subtitle" : "The physical body and the soul were represented by the snake and feathers respectively.",
+				"trigger" : ""
+			},
+			{
+				"time" : "13.400",
+				"subtitle" : "In this characteristics are also represented the strength of earth and sky.",
+				"trigger" : ""
+			},
+			{
+				"time" : "18.800",
+				"subtitle" : "Its main attribute was the transformation power and was a reference to the perfection of the man",
+				"trigger" : "PinQuetzalcoatl"
+			},
+			{
+				"time" : "20.000",
+				"subtitle" : "",
+				"trigger" : "QuetzalcoatlPiedra"
+			}
+		]
+	},
+	{
+		"name" : "Huitzilopochtli",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "Huitzilopochtli is associated to the foundation story of tenochtitlan, he order the Aztlan people to look for a new place to locate.",
+				"trigger" : "Huitzilopochtli"
+			},
+			{
+				"time" : "08.500",
+				"subtitle" : "That promised land should be full of natural riches and give them power above the others.",
+				"trigger" : ""
+			},
+			{
+				"time" : "14.800",
+				"subtitle" : "The signal to reach this place was an eagle devouring a snake on a nopal stem.",
+				"trigger" : "PinHuitzilopochtli"
+			},
+			{
+				"time" : "16.800",
+				"subtitle" : "",
+				"trigger" : "Tenochtitlan"
+			}
+		]
+	},
+	{
+		"name" : "Mictlantecuhtli",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle" : "God of the underworld who reigned the Mictlan or place for the dead people which was believed it was the site where the deceased people could rest eternally.",
+				"trigger" : "Mictlantecuhtli"
+			},
+			{
+				"time" : "10.500",
+				"subtitle" : "In mesoamerica, because of the existence of different dialects, It was named by different ways, between them:",
+				"trigger" : ""
+			},
+			{
+				"time" : "17.300",
+				"subtitle" : "Ixtupec, which means broken face; Sextepahua, ashes spreader and Tzentemoc, the one who lowers his head.",
+				"trigger" : "PinMictlantecuhtli"
+			}
+		]
+	}]
+}

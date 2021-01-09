@@ -1,0 +1,166 @@
+{ "pack":[
+	{
+		"name" : "Intro",
+		"subtitles" : [
+			{
+				"time" : "00.200",
+				"subtitle": "Proceso de construcción de la chinampa"
+			}
+		]
+	},
+	{
+		"name" : "Pasos",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle": "El primer paso es buscar un lugar poco profundo de un lago"
+			},
+			{
+				"time" : "04.100",
+				"subtitle": "en este caso podemos observar que en medio de esta sección de lago"
+			},
+			{
+				"time" : "07.600",
+				"subtitle": "hay una zona con menos profundidad."
+			},
+			{
+				"time" : "11.700",
+				"subtitle": " Después se consiguen estacas que nos ayudaran a delimitar el terreno que abarcara la chinampa.",
+				"trigger" : "estaca-modelo"
+			},
+			{
+				"time" : "17.700",
+				"subtitle": "Por lo general, las chinampas son pequeñas"
+			},
+			{
+				"time" : "20.400",
+				"subtitle": "y fluctúan entre 5 metros de longitud"
+			},
+			{
+				"time" : "22.600",
+				"subtitle": "por 3 metros de ancho."
+			},
+			{
+				"time" : "24.900",
+				"subtitle": "Después se jalan los pastos más largos que crecen alrededor del lago o laguna"
+			},
+			{
+				"time" : "29.000",
+				"subtitle": "y se ponen capas de vegetación acuática",
+				"trigger" : "composta"
+			},
+			{
+				"time" : "31.000",
+				"subtitle": "como los lirios, césped, atlapalácatl"
+			},
+			{
+				"time" : "34.400",
+				"subtitle": "y tule"
+			},
+			{
+				"time" : "36.000",
+				"subtitle": "palos en el centro"
+			},
+			{
+				"time" : "37.700",
+				"subtitle": "luego, capas y capas de lodo hasta que se tiene una superficie de 40 centímetros de altura sobre el agua",
+				"trigger" : "lodo1"
+			},
+			{
+				"time" : "38.200",
+				"trigger" : "lodo2"
+			},
+			{
+				"time" : "44.800",
+				"subtitle": "y se aplanaba para que quedara pareja."
+			}
+		]
+	},
+	{
+		"name" : "OtrasFuentes",
+		"subtitles" : [
+			{
+				"time" : "00.500",
+				"subtitle": "Otras fuentes indican"
+			},
+			{
+				"time" : "01.700",
+				"subtitle": "que esta última capa se cubría con cieno del fondo del canal",
+				"trigger" : "tierra"
+			},
+			{
+				"time" : "05.700",
+				"subtitle": "que se extraía con un palo largo de madera en cuya extremidad está colocada una bolsa de cuero"
+			},
+			{
+				"time" : "11.100",
+				"subtitle": "o con una batea o texpetlatl"
+			},
+			{
+				"time" : "13.600",
+				"subtitle": "que es un gran cucharón de madera."
+			},
+			{
+				"time" : "15.300",
+				"subtitle": "Por último"
+			},
+			{
+				"time" : "16.400",
+				"subtitle": "la chinampa era reforzada con huejotes o ahuejotes",
+				"trigger" : "ahuejote"
+			},
+			{
+				"time" : "19.800",
+				"subtitle": " que cumplían una doble función"
+			},
+			{
+				"time" : "21.800",
+				"subtitle": " una era fijar la chinampa"
+			},
+			{
+				"time" : "24.300",
+				"subtitle": "y la otra retener el suelo agrícola evitando la erosión"
+			}
+		]
+	},
+	{
+		"name" : "Outro",
+		"subtitles" : [
+			{
+				"time" : "00.000",
+				"subtitle": "Con el paso del tiempo"
+			},
+			{
+				"time" : "01.200",
+				"subtitle": " aproximadamente a los cuatro años de formada la chinampa"
+			},
+			{
+				"time" : "04.600",
+				"subtitle": "la descomposición de la materia orgánica es casi completa",
+				"trigger" : "Water"
+			},
+			{
+				"time" : "08.100",
+				"subtitle": "y las raíces del ahuejote han crecido lo suficiente",
+				"trigger" : "raiz"
+			},
+			{
+				"time" : "11.300",
+				"subtitle": "como para que la chinampa se haya convertido en suelo rico y poroso",
+				"trigger": "Water"
+			},
+			{
+				"time" : "11.301",
+				"trigger": "Corn-model"
+			},
+			{
+				"time" : "14.600",
+				"subtitle": "gracias a su base hecha de materiales descompuestos"
+			},
+			{
+				"time" : "17.400",
+				"subtitle": "permeable al agua y equilibrador de la humedad."
+			}
+		]
+	}]
+}
